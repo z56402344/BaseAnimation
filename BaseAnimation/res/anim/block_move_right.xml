@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:zAdjustment="top"
+    >
+
+    <scale
+        android:duration="500"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="2.0"
+        android:toYScale="2.0" />
+    
+     <scale android:interpolator="@android:anim/accelerate_interpolator"
+        android:duration="500"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:startOffset="500"
+        android:toXScale="0.5"
+        android:toYScale="0.5" />
+
+    <translate
+        android:duration="1500"
+        android:fromYDelta="30%p"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:toYDelta="0" />
+
+   
+
+   
+
+</set>

@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpinnerMainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/rl_level1"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/icon_youku_level1" >
+
+        <ImageButton
+            android:id="@+id/ib_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/icon_youku_home" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_level2"
+        android:layout_width="200dip"
+        android:layout_height="100dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/icon_youku_level2" >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/icon_youku_search" />
+
+        <ImageButton
+            android:id="@+id/ib_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/icon_youku_menu" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dip"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/icon_youku_myyouku" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_level3"
+        android:layout_width="315dip"
+        android:layout_height="160dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/icon_youku_level3" >
+
+        <ImageButton
+            android:id="@+id/ib_channel1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="15dip"
+            android:background="@drawable/icon_youku_channel1" />
+
+        <ImageButton
+            android:id="@+id/ib_channel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/ib_channel1"
+            android:layout_marginBottom="20dip"
+            android:layout_marginLeft="40dip"
+            android:background="@drawable/icon_youku_channel2" />
+
+        <ImageButton
+            android:id="@+id/ib_channel3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/ib_channel2"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@id/ib_channel2"
+            android:background="@drawable/icon_youku_channel3" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/icon_youku_channel4" />
+
+        <ImageButton
+            android:id="@+id/ib_channel7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dip"
+            android:layout_marginRight="15dip"
+            android:background="@drawable/icon_youku_channel5" />
+
+        <ImageButton
+            android:id="@+id/ib_channel6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/ib_channel7"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="20dip"
+            android:layout_marginRight="40dip"
+            android:background="@drawable/icon_youku_channel6" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/ib_channel6"
+            android:layout_marginBottom="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_toLeftOf="@id/ib_channel6"
+            android:background="@drawable/icon_youku_channel7" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bt_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:background="@drawable/bt_pay_selector"
+        android:text="出现优酷菜单"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_show"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="BaseAnimation提醒:
+        下面菜单也是可以点击的哦!!!" />
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="时间选择" />
+    <Button
+        android:id="@+id/reset_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="回到当前时间" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+   		android:orientation="horizontal" >
+		<com.duguang.baseanimation.ui.imitate.wheel.WheelView 
+			android:id="@+id/time_year"
+			android:layout_height="wrap_content"
+			android:layout_width="100dp"
+			android:layout_marginLeft="0dp"
+			android:layout_weight="1"/>
+		<com.duguang.baseanimation.ui.imitate.wheel.WheelView 
+			android:id="@+id/time_month"
+			android:layout_height="wrap_content"
+			android:layout_width="80dp"
+			android:layout_weight="1"/>
+		<com.duguang.baseanimation.ui.imitate.wheel.WheelView 
+			android:id="@+id/time_day"
+			android:layout_height="wrap_content"
+			android:layout_width="80dp"
+			android:layout_weight="1"/>
+		<com.duguang.baseanimation.ui.imitate.wheel.WheelView 
+			android:id="@+id/time_hour"
+			android:layout_height="wrap_content"
+			android:layout_width="80dp"
+			android:layout_weight="1"/>
+		<com.duguang.baseanimation.ui.imitate.wheel.WheelView 
+			android:id="@+id/time_minute"
+			android:layout_height="wrap_content"
+			android:layout_width="80dp"
+			android:layout_weight="1"/>
+	</LinearLayout>
+	<TextView 
+	    android:id="@+id/time_chose"
+	    android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:textColor="#99CC66"
+		android:text="时间为："
+	    />
+	<ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="50dip"
+        android:layout_marginBottom="50dip"
+        android:background="#cccccc" />
+	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="地区选择" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+   		android:orientation="horizontal" >
+		<com.duguang.baseanimation.ui.imitate.wheel.WheelView 
+			android:id="@+id/place_sheng"
+			android:layout_height="wrap_content"
+			android:layout_width="0dip"
+			android:layout_marginLeft="0dp"
+			android:layout_weight="1"/>
+		<com.duguang.baseanimation.ui.imitate.wheel.WheelView 
+			android:id="@+id/place_shi"
+			android:layout_height="wrap_content"
+			android:layout_width="0dip"
+			android:layout_weight="1"/>
+	</LinearLayout>
+	<TextView 
+	    android:id="@+id/place_chose"
+	    android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:textColor="#99CC66"
+	    />
+</LinearLayout>

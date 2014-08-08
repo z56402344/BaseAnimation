@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg" >
+
+    <ImageView
+        android:id="@+id/topImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/gesturelogo" />
+
+    <TextView
+        android:id="@+id/tvNoSetPassword"
+        style="@style/TextAppearance"
+        android:layout_below="@+id/topImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/setgesturepassword"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/passLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvForgetPassword"
+        android:layout_below="@+id/tvNoSetPassword"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" >
+
+        <com.bocsoft.ofa.base.ui.gesturepassword.LocusPassWordView
+            android:id="@+id/mLocusPassWordView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvForgetPassword"
+        style="@style/TextAppearance_bigger"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="@string/fogetgesturepassword"
+        android:textSize="18sp" />
+
+</RelativeLayout>

@@ -1,0 +1,779 @@
+# view res/layout/activity_tab_paralloid__home.xml #generated:13
+-keep class android.support.v4.view.PagerTitleStrip { <init>(...); }
+
+# view land\res/layout-land/activity_tab_pagertab_fragment_quick_contact.xml #generated:49
+# view res/layout/activity_custom_morecustom_main.xml #generated:20
+# view res/layout/activity_imitate_main.xml #generated:43
+# view res/layout/activity_splash_backgroundcolor_main.xml #generated:12
+# view res/layout/activity_splash_viewpager.xml #generated:6
+# view res/layout/activity_tab_gviewpager_main.xml #generated:31
+# view res/layout/activity_tab_pagertab__main.xml #generated:13
+# view res/layout/activity_tab_pagertab_fragment_quick_contact.xml #generated:38
+# view res/layout/activity_tab_paralloid__home.xml #generated:1
+# view res/layout/activity_tab_scrollview_main.xml #generated:15
+# view res/layout/activity_tab_winter_main.xml #generated:66
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/activity_cancas_chart_main.xml #generated:2
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# view res/layout/abc_action_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abc_action_menu_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ActionMenuView { <init>(...); }
+
+# view res/layout/abc_expanded_menu_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ExpandedMenuView { <init>(...); }
+
+# view res/layout/abc_list_menu_item_layout.xml #generated:17
+# view res/layout/abc_popup_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:19
+# view res/layout/abc_action_bar_decor_include.xml #generated:47
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:29
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:52
+-keep class android.support.v7.internal.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:31
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:40
+# view res/layout/abc_action_mode_bar.xml #generated:19
+-keep class android.support.v7.internal.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:17
+-keep class android.support.v7.internal.widget.ActionBarOverlayLayout { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:25
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:35
+-keep class android.support.v7.internal.widget.ActionBarView { <init>(...); }
+
+# view res/layout/abc_action_bar_home.xml #generated:17
+-keep class android.support.v7.internal.widget.ActionBarView$HomeView { <init>(...); }
+
+# view res/layout/abc_action_bar_tabbar.xml #generated:17
+# view res/layout/abc_activity_chooser_view.xml #generated:19
+-keep class android.support.v7.internal.widget.LinearLayoutICS { <init>(...); }
+
+# view v11\res/layout-v11/abc_action_bar_decor.xml #generated:17
+-keep class android.support.v7.internal.widget.NativeActionModeAwareLayout { <init>(...); }
+
+# view res/layout/abc_action_bar_tab.xml #generated:17
+-keep class android.support.v7.internal.widget.ScrollingTabContainerView$TabView { <init>(...); }
+
+# view res/layout/abc_search_view.xml #generated:85
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view AndroidManifest.xml #generated:539
+-keep class cn.jpush.android.service.AlarmReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:498
+-keep class cn.jpush.android.service.DownloadService { <init>(...); }
+
+# view AndroidManifest.xml #generated:518
+-keep class cn.jpush.android.service.PushReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:505
+-keep class cn.jpush.android.service.PushService { <init>(...); }
+
+# view AndroidManifest.xml #generated:486
+-keep class cn.jpush.android.ui.PushActivity { <init>(...); }
+
+# view res/layout/activity_flip_view_controller.xml #generated:17
+-keep class com.aphidmobile.flip.FlipViewController { <init>(...); }
+
+# view res/layout/login_activity.xml #generated:34
+-keep class com.bocsoft.ofa.base.ui.gesturepassword.LocusPassWordView { <init>(...); }
+
+# view res/layout/activity_custom_dialogs_main.xml #generated:14
+-keep class com.casee.adsdk.CaseeAdView { <init>(...); }
+
+# view AndroidManifest.xml #generated:542
+-keep class com.duguang.baseanimation.receicer.MyReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class com.duguang.baseanimation.ui.AboutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.duguang.baseanimation.ui.ComplexActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.duguang.baseanimation.ui.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class com.duguang.baseanimation.ui.SimpleActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:407
+-keep class com.duguang.baseanimation.ui.canvas.CanvasMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:408
+-keep class com.duguang.baseanimation.ui.canvas.chart.charts.ChartMainActivity { <init>(...); }
+
+# view res/layout/activity_cancas_chart_main.xml #generated:24
+-keep class com.duguang.baseanimation.ui.canvas.chart.charts.NavigationDrawerFragment { <init>(...); }
+
+# view res/layout/activity_cancas_chart_fragment_bar.xml #generated:14
+-keep class com.duguang.baseanimation.ui.canvas.chart.util.BarView { <init>(...); }
+
+# view res/layout/activity_cancas_chart_fragment_line.xml #generated:13
+-keep class com.duguang.baseanimation.ui.canvas.chart.util.LineView { <init>(...); }
+
+# view res/layout/activity_cancas_chart_fragment_line.xml #generated:6
+-keep class com.duguang.baseanimation.ui.canvas.chart.util.MyHori { <init>(...); }
+
+# view res/layout/activity_cancas_chart_fragment_pie.xml #generated:7
+-keep class com.duguang.baseanimation.ui.canvas.chart.util.PieView { <init>(...); }
+
+# view AndroidManifest.xml #generated:406
+-keep class com.duguang.baseanimation.ui.canvas.olympics.OlympicMainActivity { <init>(...); }
+
+# view res/layout/activity_splash.xml #generated:11
+# view res/layout/activity_splash_zaker.xml #generated:20
+-keep class com.duguang.baseanimation.ui.custom.PullDoorView { <init>(...); }
+
+# view AndroidManifest.xml #generated:223
+-keep class com.duguang.baseanimation.ui.customview.CustomViewMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:238
+-keep class com.duguang.baseanimation.ui.customview.DialogsMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:240
+-keep class com.duguang.baseanimation.ui.customview.TransparentPopWindowMenu { <init>(...); }
+
+# view res/layout/activity_custom_badger_tests.xml #generated:18
+-keep class com.duguang.baseanimation.ui.customview.badger.BadgeView { <init>(...); }
+
+# view AndroidManifest.xml #generated:242
+-keep class com.duguang.baseanimation.ui.customview.badger.BadgerMainActivity { <init>(...); }
+
+# view res/layout/activity_custom_circleimage_main.xml #generated:35
+# view res/layout/activity_custom_circleimage_main.xml #generated:42
+# view res/layout/activity_custom_circleimage_main.xml #generated:49
+# view res/layout/activity_custom_circleimage_main.xml #generated:56
+# view res/layout/activity_custom_circleimage_main.xml #generated:63
+# view res/layout/activity_custom_circleimage_main.xml #generated:70
+-keep class com.duguang.baseanimation.ui.customview.circlemenu.CircleImageView { <init>(...); }
+
+# view res/layout/activity_custom_circleimage_main.xml #generated:23
+-keep class com.duguang.baseanimation.ui.customview.circlemenu.CircleLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:226
+-keep class com.duguang.baseanimation.ui.customview.circlemenu.CircleMenuMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:224
+-keep class com.duguang.baseanimation.ui.customview.clickdeflect.ClickDeflectActivity { <init>(...); }
+
+# view res/layout/activity_custom_click_deflect_main.xml #generated:23
+# view res/layout/activity_custom_click_deflect_main.xml #generated:31
+# view res/layout/activity_custom_click_deflect_main.xml #generated:40
+# view res/layout/activity_custom_click_deflect_main.xml #generated:49
+-keep class com.duguang.baseanimation.ui.customview.clickdeflect.MyImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:246
+-keep class com.duguang.baseanimation.ui.customview.foldablelayout.activity.FoldableBaseActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:247
+-keep class com.duguang.baseanimation.ui.customview.foldablelayout.activity.FoldableListMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:248
+-keep class com.duguang.baseanimation.ui.customview.foldablelayout.activity.UnfoldableDetailsMainActivity { <init>(...); }
+
+# view res/layout/activity_custom_foldable_list.xml #generated:1
+-keep class com.duguang.baseanimation.ui.customview.foldablelayout.library.FoldableListLayout { <init>(...); }
+
+# view res/layout/activity_custom_foldable_details.xml #generated:74
+-keep class com.duguang.baseanimation.ui.customview.foldablelayout.library.UnfoldableView { <init>(...); }
+
+# view res/layout/activity_custom_gallery_listview_allvideo_item.xml #generated:19
+-keep class com.duguang.baseanimation.ui.customview.gallerylistview.GalleryItem { <init>(...); }
+
+# view AndroidManifest.xml #generated:228
+-keep class com.duguang.baseanimation.ui.customview.gallerylistview.GalleryListViewMain { <init>(...); }
+
+# view res/layout/activity_custom_hscrollview_main.xml #generated:15
+-keep class com.duguang.baseanimation.ui.customview.hscrollview.MyScrollView { <init>(...); }
+
+# view AndroidManifest.xml #generated:230
+-keep class com.duguang.baseanimation.ui.customview.hscrollview.ScrollviewMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:236
+-keep class com.duguang.baseanimation.ui.customview.lodingdialog.LoadingDialogMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:244
+-keep class com.duguang.baseanimation.ui.customview.milaucher.MiLaucherMainActivity { <init>(...); }
+
+# view res/layout/activity_custom_mi_laucher_main.xml #generated:20
+-keep class com.duguang.baseanimation.ui.customview.milaucher.utils.ScrollLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:225
+-keep class com.duguang.baseanimation.ui.customview.morecustom.MoreCustomMainActivity { <init>(...); }
+
+# view res/layout/activity_custom_morecustom_main.xml #generated:6
+-keep class com.duguang.baseanimation.ui.customview.morecustom.MyScrollView { <init>(...); }
+
+# view res/layout/activity_custom_morecustom_biaopan_view.xml #generated:6
+-keep class com.duguang.baseanimation.ui.customview.morecustom.biaopan.BiaoPanview { <init>(...); }
+
+# view AndroidManifest.xml #generated:237
+-keep class com.duguang.baseanimation.ui.customview.popwindow.PoupWindowMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:231
+-keep class com.duguang.baseanimation.ui.customview.progressbar.ProgressBarMain { <init>(...); }
+
+# view AndroidManifest.xml #generated:232
+-keep class com.duguang.baseanimation.ui.customview.progressbar.ProgressBar_Color { <init>(...); }
+
+# view AndroidManifest.xml #generated:233
+-keep class com.duguang.baseanimation.ui.customview.progressbar.ProgressBar_Indeter { <init>(...); }
+
+# view AndroidManifest.xml #generated:234
+-keep class com.duguang.baseanimation.ui.customview.progressbar.ProgressBar_Left { <init>(...); }
+
+# view AndroidManifest.xml #generated:235
+-keep class com.duguang.baseanimation.ui.customview.progressbar.ProgressBar_Right { <init>(...); }
+
+# view AndroidManifest.xml #generated:229
+-keep class com.duguang.baseanimation.ui.customview.ribbomenu.RibbonMainActivity { <init>(...); }
+
+# view res/layout/activity_custom_ribbon_main.xml #generated:12
+-keep class com.duguang.baseanimation.ui.customview.ribbomenu.RibbonMenuView { <init>(...); }
+
+# view res/layout/activity_custom_secrettextview_main.xml #generated:18
+-keep class com.duguang.baseanimation.ui.customview.secrettextview.SecretTextView { <init>(...); }
+
+# view AndroidManifest.xml #generated:245
+-keep class com.duguang.baseanimation.ui.customview.secrettextview.SecretTextViewActivity { <init>(...); }
+
+# view res/layout/activity_custom_serch_fly_main.xml #generated:7
+-keep class com.duguang.baseanimation.ui.customview.serchfly.KeywordsFlow { <init>(...); }
+
+# view AndroidManifest.xml #generated:241
+-keep class com.duguang.baseanimation.ui.customview.serchfly.SearchFlyActivity { <init>(...); }
+
+# view res/layout/activity_custom_switch_main.xml #generated:26
+-keep class com.duguang.baseanimation.ui.customview.switchs.MySlipSwitch { <init>(...); }
+
+# view AndroidManifest.xml #generated:243
+-keep class com.duguang.baseanimation.ui.customview.switchs.SwitchMainActivity { <init>(...); }
+
+# view res/layout/activity_custom_title_listview_main.xml #generated:9
+-keep class com.duguang.baseanimation.ui.customview.titlelistview.PinnedHeaderListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:227
+-keep class com.duguang.baseanimation.ui.customview.titlelistview.TitleListViewMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:239
+-keep class com.duguang.baseanimation.ui.customview.yzhou.TwoSidedViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:114
+-keep class com.duguang.baseanimation.ui.flip.FlipAsyncContentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class com.duguang.baseanimation.ui.flip.FlipButtonActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:112
+-keep class com.duguang.baseanimation.ui.flip.FlipComplexLayoutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:113
+-keep class com.duguang.baseanimation.ui.flip.FlipDeleteAdapterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:120
+-keep class com.duguang.baseanimation.ui.flip.FlipDynamicAdapterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:119
+-keep class com.duguang.baseanimation.ui.flip.FlipFragmentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:116
+-keep class com.duguang.baseanimation.ui.flip.FlipHorizontalLayoutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class com.duguang.baseanimation.ui.flip.FlipMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:110
+-keep class com.duguang.baseanimation.ui.flip.FlipTextViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:115
+-keep class com.duguang.baseanimation.ui.flip.FlipTextViewAltActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:117
+-keep class com.duguang.baseanimation.ui.flip.FlipTextViewXmlActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class com.duguang.baseanimation.ui.flip.FlipWebViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:122
+-keep class com.duguang.baseanimation.ui.flip.Issue51Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:118
+-keep class com.duguang.baseanimation.ui.flip.Issue5Activity { <init>(...); }
+
+# view res/layout/activity_flip_flip_fragment_activity.xml #generated:14
+-keep class com.duguang.baseanimation.ui.flip.fragment.FlipTextViewFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:415
+-keep class com.duguang.baseanimation.ui.gesturepassword.homekey.GestureParentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:414
+-keep class com.duguang.baseanimation.ui.gesturepassword.homekey.GesturePasswordDemoActivity { <init>(...); }
+
+# view res/layout/activity_gesture_password_demo.xml #generated:58
+-keep class com.duguang.baseanimation.ui.gesturepassword.homekey.LocusPassWordView { <init>(...); }
+
+# view AndroidManifest.xml #generated:413
+-keep class com.duguang.baseanimation.ui.gesturepassword.homekey.homekey.HomeLoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:127
+-keep class com.duguang.baseanimation.ui.imitate.ImitateMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:130
+-keep class com.duguang.baseanimation.ui.imitate.OutTicketActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:145
+-keep class com.duguang.baseanimation.ui.imitate.RadarMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:158
+-keep class com.duguang.baseanimation.ui.imitate.SlidingDrawerMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:139
+-keep class com.duguang.baseanimation.ui.imitate.SpinnerMainActivity { <init>(...); }
+
+# view res/layout/activity_imitate_taobao.xml #generated:18
+-keep class com.duguang.baseanimation.ui.imitate.TaobaoPathbutton.ComposerLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:133
+-keep class com.duguang.baseanimation.ui.imitate.TaobaoPathbutton.TaobaoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:136
+-keep class com.duguang.baseanimation.ui.imitate.YouKuActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:160
+-keep class com.duguang.baseanimation.ui.imitate.addshopcartanim.AddShopCartMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:151
+-keep class com.duguang.baseanimation.ui.imitate.biaopan.BiaoPanMainActivity { <init>(...); }
+
+# view res/layout/activity_imitate_biaopan_main.xml #generated:6
+-keep class com.duguang.baseanimation.ui.imitate.biaopan.BiaoPanview { <init>(...); }
+
+# view AndroidManifest.xml #generated:148
+-keep class com.duguang.baseanimation.ui.imitate.counter.CalculatorActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:149
+-keep class com.duguang.baseanimation.ui.imitate.counter.HelpAboutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:150
+-keep class com.duguang.baseanimation.ui.imitate.counter.MoreFunctionsActivity { <init>(...); }
+
+# view res/layout/activity_imitate_counter_main.xml #generated:11
+-keep class com.duguang.baseanimation.ui.imitate.counter.widget.ExpressEditText { <init>(...); }
+
+# view AndroidManifest.xml #generated:153
+-keep class com.duguang.baseanimation.ui.imitate.fang360.RootblockMainActivity { <init>(...); }
+
+# view res/layout/activity_imitate_gallery.xml #generated:8
+-keep class com.duguang.baseanimation.ui.imitate.gallery.CustomGallery { <init>(...); }
+
+# view AndroidManifest.xml #generated:142
+-keep class com.duguang.baseanimation.ui.imitate.gallery.GalleryMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:159
+-keep class com.duguang.baseanimation.ui.imitate.taobaoPath2.PathMenuMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:161
+-keep class com.duguang.baseanimation.ui.imitate.titanic.TitanicMainActivity { <init>(...); }
+
+# view res/layout/activity_imitate_titanic_main.xml #generated:7
+-keep class com.duguang.baseanimation.ui.imitate.titanic.library.TitanicTextView { <init>(...); }
+
+# view AndroidManifest.xml #generated:157
+-keep class com.duguang.baseanimation.ui.imitate.viberation.ViberationMain { <init>(...); }
+
+# view res/layout/activity_imitate_waterfall_main.xml #generated:1
+-keep class com.duguang.baseanimation.ui.imitate.waterfall.MyLinearLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:152
+-keep class com.duguang.baseanimation.ui.imitate.waterfall.WaterfallMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:156
+-keep class com.duguang.baseanimation.ui.imitate.weixin.WeixinChatDemoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:154
+-keep class com.duguang.baseanimation.ui.imitate.wheel.WheelMainActivity { <init>(...); }
+
+# view res/layout/activity_imitate_wheel_main.xml #generated:21
+# view res/layout/activity_imitate_wheel_main.xml #generated:27
+# view res/layout/activity_imitate_wheel_main.xml #generated:32
+# view res/layout/activity_imitate_wheel_main.xml #generated:37
+# view res/layout/activity_imitate_wheel_main.xml #generated:42
+# view res/layout/activity_imitate_wheel_main.xml #generated:69
+# view res/layout/activity_imitate_wheel_main.xml #generated:75
+-keep class com.duguang.baseanimation.ui.imitate.wheel.WheelView { <init>(...); }
+
+# view AndroidManifest.xml #generated:570
+-keep class com.duguang.baseanimation.ui.imitate.widget.MserServes { <init>(...); }
+
+# view AndroidManifest.xml #generated:155
+-keep class com.duguang.baseanimation.ui.imitate.widget.WidgetMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:166
+-keep class com.duguang.baseanimation.ui.listivew.ListViewMani { <init>(...); }
+
+# view AndroidManifest.xml #generated:184
+-keep class com.duguang.baseanimation.ui.listivew.deletealpha.DeleteAlphaMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:181
+-keep class com.duguang.baseanimation.ui.listivew.deleteleft.DeleteLeftMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:169
+-keep class com.duguang.baseanimation.ui.listivew.deletelistview.DeleteListViewMainActivity { <init>(...); }
+
+# view res/layout/activity_listview_delete_main.xml #generated:6
+-keep class com.duguang.baseanimation.ui.listivew.deletelistview.ListViewCompat { <init>(...); }
+
+# view AndroidManifest.xml #generated:178
+-keep class com.duguang.baseanimation.ui.listivew.indexlistview.IndexMainActivity { <init>(...); }
+
+# view res/layout/activity_imitate_listview_interceptor_main.xml #generated:8
+-keep class com.duguang.baseanimation.ui.listivew.interceptor.ListViewInterceptor { <init>(...); }
+
+# view AndroidManifest.xml #generated:215
+-keep class com.duguang.baseanimation.ui.listivew.interceptor.ListViewInterceptorMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:216
+-keep class com.duguang.baseanimation.ui.listivew.listforpage.ListForPageMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:194
+-keep class com.duguang.baseanimation.ui.listivew.listviews.GoogleCardsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:209
+-keep class com.duguang.baseanimation.ui.listivew.listviews.GridViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:187
+-keep class com.duguang.baseanimation.ui.listivew.listviews.ListViewsMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:190
+-keep class com.duguang.baseanimation.ui.listivew.listviews.MyListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:191
+-keep class com.duguang.baseanimation.ui.listivew.listviews.appearanceexamples.AppearanceExamplesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:206
+-keep class com.duguang.baseanimation.ui.listivew.listviews.itemmanipulationexamples.AnimateDismissActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:200
+-keep class com.duguang.baseanimation.ui.listivew.listviews.itemmanipulationexamples.DragAndDropActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:212
+-keep class com.duguang.baseanimation.ui.listivew.listviews.itemmanipulationexamples.ExpandableListItemActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:197
+-keep class com.duguang.baseanimation.ui.listivew.listviews.itemmanipulationexamples.ItemManipulationsExamplesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:203
+-keep class com.duguang.baseanimation.ui.listivew.listviews.itemmanipulationexamples.SwipeDismissActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:172
+-keep class com.duguang.baseanimation.ui.listivew.refresh.RefreshMainActivity { <init>(...); }
+
+# view res/layout/activity_listview_refresh_mani.xml #generated:7
+-keep class com.duguang.baseanimation.ui.listivew.refresh.view.RefreshListView { <init>(...); }
+
+# view res/layout/activity_listview_sort_main.xml #generated:7
+-keep class com.duguang.baseanimation.ui.listivew.sortlistview.ClearEditText { <init>(...); }
+
+# view res/layout/activity_listview_sort_main.xml #generated:40
+-keep class com.duguang.baseanimation.ui.listivew.sortlistview.SideBar { <init>(...); }
+
+# view AndroidManifest.xml #generated:175
+-keep class com.duguang.baseanimation.ui.listivew.sortlistview.SortListViewMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:274
+-keep class com.duguang.baseanimation.ui.nineold.NineOldMani { <init>(...); }
+
+# view AndroidManifest.xml #generated:283
+-keep class com.duguang.baseanimation.ui.nineold.Toggles { <init>(...); }
+
+# view AndroidManifest.xml #generated:292
+-keep class com.duguang.baseanimation.ui.nineold.VPADemo { <init>(...); }
+
+# view AndroidManifest.xml #generated:303
+-keep class com.duguang.baseanimation.ui.nineold.apidemos.AnimationCloning { <init>(...); }
+
+# view AndroidManifest.xml #generated:312
+-keep class com.duguang.baseanimation.ui.nineold.apidemos.AnimationLoading { <init>(...); }
+
+# view AndroidManifest.xml #generated:321
+-keep class com.duguang.baseanimation.ui.nineold.apidemos.AnimationSeeking { <init>(...); }
+
+# view AndroidManifest.xml #generated:330
+-keep class com.duguang.baseanimation.ui.nineold.apidemos.AnimatorEvents { <init>(...); }
+
+# view AndroidManifest.xml #generated:339
+-keep class com.duguang.baseanimation.ui.nineold.apidemos.BouncingBalls { <init>(...); }
+
+# view AndroidManifest.xml #generated:348
+-keep class com.duguang.baseanimation.ui.nineold.apidemos.CustomEvaluator { <init>(...); }
+
+# view AndroidManifest.xml #generated:357
+-keep class com.duguang.baseanimation.ui.nineold.apidemos.MultiPropertyAnimation { <init>(...); }
+
+# view AndroidManifest.xml #generated:366
+-keep class com.duguang.baseanimation.ui.nineold.apidemos.ReversingAnimation { <init>(...); }
+
+# view AndroidManifest.xml #generated:377
+-keep class com.duguang.baseanimation.ui.nineold.droidflakes.Droidflakes { <init>(...); }
+
+# view AndroidManifest.xml #generated:388
+-keep class com.duguang.baseanimation.ui.nineold.pathanimation.PathAnimationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:420
+-keep class com.duguang.baseanimation.ui.notification.BaseNotificationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:421
+-keep class com.duguang.baseanimation.ui.notification.CustomActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:422
+-keep class com.duguang.baseanimation.ui.notification.NotificationMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:423
+-keep class com.duguang.baseanimation.ui.notification.ProgressAcitivty { <init>(...); }
+
+# view AndroidManifest.xml #generated:401
+-keep class com.duguang.baseanimation.ui.property.PropertyAnimationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:104
+-keep class com.duguang.baseanimation.ui.splash.BackGroundColor.BackGroundColorAnimationActivity { <init>(...); }
+
+# view res/layout/activity_splash_backgroundcolor_main.xml #generated:7
+-keep class com.duguang.baseanimation.ui.splash.BackGroundColor.ColorAnimationView { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class com.duguang.baseanimation.ui.splash.LensFocusActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class com.duguang.baseanimation.ui.splash.Rotate3DActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:94
+-keep class com.duguang.baseanimation.ui.splash.RotateActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class com.duguang.baseanimation.ui.splash.SplashMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:96
+-keep class com.duguang.baseanimation.ui.splash.ViewPagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:91
+-keep class com.duguang.baseanimation.ui.splash.ZakerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class com.duguang.baseanimation.ui.splash.fade.FadeMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:102
+-keep class com.duguang.baseanimation.ui.splash.fade.FadeSplashScreenActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:103
+-keep class com.duguang.baseanimation.ui.splash.fade2.Fade2MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class com.duguang.baseanimation.ui.splash.splitActivity.Activity1 { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class com.duguang.baseanimation.ui.splash.splitActivity.Activity2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:99
+-keep class com.duguang.baseanimation.ui.splash.splitActivity.Activity3 { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class com.duguang.baseanimation.ui.splash.splitActivity.Activity4 { <init>(...); }
+
+# view AndroidManifest.xml #generated:263
+-keep class com.duguang.baseanimation.ui.tab.PagerTabStrip.PagerTabMainActivity { <init>(...); }
+
+# view land\res/layout-land/activity_tab_pagertab_fragment_quick_contact.xml #generated:37
+# view res/layout/activity_tab_pagertab__main.xml #generated:7
+# view res/layout/activity_tab_pagertab_fragment_quick_contact.xml #generated:27
+-keep class com.duguang.baseanimation.ui.tab.PagerTabStrip.library.PagerSlidingTabStrip { <init>(...); }
+
+# view AndroidManifest.xml #generated:256
+-keep class com.duguang.baseanimation.ui.tab.TabMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:257
+-keep class com.duguang.baseanimation.ui.tab.WinterMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:259
+-keep class com.duguang.baseanimation.ui.tab.gviewpager.GViewPagerMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:260
+-keep class com.duguang.baseanimation.ui.tab.gviewpager.GViewPagerMainActivityOne { <init>(...); }
+
+# view AndroidManifest.xml #generated:261
+-keep class com.duguang.baseanimation.ui.tab.gviewpager.GViewPagerMainActivityTwo { <init>(...); }
+
+# view AndroidManifest.xml #generated:217
+-keep class com.duguang.baseanimation.ui.tab.paralloid.ParalloidHomeActivity { <init>(...); }
+
+# view res/layout/activity_tab_paralloid__fragment_parallax_list_background.xml #generated:1
+-keep class com.duguang.baseanimation.ui.tab.paralloid.library.ParallaxListView { <init>(...); }
+
+# view res/layout/activity_tab_paralloid__fragment_combi_transformer.xml #generated:33
+# view res/layout/activity_tab_paralloid__fragment_home_dummy.xml #generated:11
+# view res/layout/activity_tab_paralloid__fragment_invert_transformer.xml #generated:19
+# view res/layout/activity_tab_paralloid__fragment_parallax_background.xml #generated:1
+-keep class com.duguang.baseanimation.ui.tab.paralloid.library.ParallaxScrollView { <init>(...); }
+
+# view AndroidManifest.xml #generated:258
+-keep class com.duguang.baseanimation.ui.tab.scroll.ScrollViewMainActivity { <init>(...); }
+
+# view res/layout/activity_tab_scrollview_plugin.xml #generated:6
+-keep class com.duguang.baseanimation.ui.tab.scroll.widget.MyHorizontalScrollView { <init>(...); }
+
+# view res/layout/activity_tab_scrollview_main.xml #generated:9
+-keep class com.duguang.baseanimation.ui.tab.scroll.widget.PluginScrollView { <init>(...); }
+
+# view res/layout/activity_tab_scrollview_plugin.xml #generated:19
+-keep class com.duguang.baseanimation.ui.tab.scroll.widget.ScrollIndicator { <init>(...); }
+
+# view AndroidManifest.xml #generated:262
+-keep class com.duguang.baseanimation.ui.tab.tabhost.TabHostMoveMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:264
+-keep class com.duguang.baseanimation.ui.tab.viewflow.AsyncDataFlowActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:265
+-keep class com.duguang.baseanimation.ui.tab.viewflow.CircleViewFlowActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:266
+-keep class com.duguang.baseanimation.ui.tab.viewflow.DiffViewFlowActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:267
+-keep class com.duguang.baseanimation.ui.tab.viewflow.TitleViewFlowActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:268
+-keep class com.duguang.baseanimation.ui.tab.viewflow.ViewFlowActivity { <init>(...); }
+
+# view res/layout/activity_tab_viewflow_circle_layout.xml #generated:8
+-keep class com.duguang.baseanimation.ui.tab.viewflow.library.CircleFlowIndicator { <init>(...); }
+
+# view res/layout/activity_tab_viewflow_title_layout.xml #generated:15
+-keep class com.duguang.baseanimation.ui.tab.viewflow.library.TitleFlowIndicator { <init>(...); }
+
+# view res/layout/activity_tab_viewflow_circle_layout.xml #generated:17
+# view res/layout/activity_tab_viewflow_title_layout.xml #generated:32
+-keep class com.duguang.baseanimation.ui.tab.viewflow.library.ViewFlow { <init>(...); }
+
+# view res/layout/activity_gesture_password_demo.xml #generated:25
+-keep class com.duguang.baseanimation.utils.SlideToggle { <init>(...); }
+
+# view res/layout/activity_imitate_wave_view_pay_wave.xml #generated:11
+# view res/layout/activity_imitate_wave_view_pay_wave.xml #generated:44
+-keep class com.example.waveanim.WaveAnimView { <init>(...); }
+
+# view res/layout/umeng_socialize_comment_detail.xml #generated:23
+-keep class com.google.android.maps.MapView { <init>(...); }
+
+# view AndroidManifest.xml #generated:482
+-keep class com.tencent.tauth.AuthActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:433
+-keep class com.umeng.common.net.DownloadingService { <init>(...); }
+
+# view AndroidManifest.xml #generated:445
+-keep class com.umeng.fb.ContactActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:442
+-keep class com.umeng.fb.ConversationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:461
+-keep class com.umeng.socialize.view.CommentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:467
+-keep class com.umeng.socialize.view.CommentDetail { <init>(...); }
+
+# view AndroidManifest.xml #generated:474
+-keep class com.umeng.socialize.view.CommentDetailNoMap { <init>(...); }
+
+# view AndroidManifest.xml #generated:451
+-keep class com.umeng.socialize.view.ShareActivity { <init>(...); }
+
+# view res/layout/umeng_socialize_post_share.xml #generated:2
+# view sw550dp-large\res/layout-sw550dp-large/umeng_socialize_post_share.xml #generated:2
+-keep class com.umeng.socialize.view.wigets.KeyboardListenRelativeLayout { <init>(...); }
+
+# view res/layout/umeng_socialize_comment_view.xml #generated:30
+-keep class com.umeng.socialize.view.wigets.PullToRefreshListView { <init>(...); }
+
+# view res/layout/umeng_socialize_at_view.xml #generated:21
+-keep class com.umeng.socialize.view.wigets.SearchBox { <init>(...); }
+
+# view res/layout/umeng_socialize_at_view.xml #generated:38
+-keep class com.umeng.socialize.view.wigets.SectionListView { <init>(...); }
+
+# view res/layout/umeng_socialize_at_view.xml #generated:47
+-keep class com.umeng.socialize.view.wigets.SlideBar { <init>(...); }
+
+# view res/layout/umeng_socialize_ucenter_platform_item.xml #generated:31
+-keep class com.umeng.socialize.view.wigets.SwitchImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:438
+-keep class com.umeng.update.UpdateDialogActivity { <init>(...); }
+
+# onClick res/layout/activity_custom_loding_dialog_main.xml #generated:7
+-keepclassmembers class * { *** btnClick(...); }
+
+# onClick res/layout/activity_imitate_main.xml #generated:64
+# onClick res/layout/activity_imitate_main.xml #generated:72
+-keepclassmembers class * { *** next(...); }
+
+# onClick res/layout/activity_listviews_examples_itemmanipulations.xml #generated:32
+-keepclassmembers class * { *** onAnimateRemovalClicked(...); }
+
+# onClick res/layout/activity_listviews_main.xml #generated:25
+-keepclassmembers class * { *** onAppearanceClicked(...); }
+
+# onClick res/layout/activity_tab_pagertab__main.xml #generated:31
+# onClick res/layout/activity_tab_pagertab__main.xml #generated:40
+# onClick res/layout/activity_tab_pagertab__main.xml #generated:49
+# onClick res/layout/activity_tab_pagertab__main.xml #generated:58
+# onClick res/layout/activity_tab_pagertab__main.xml #generated:67
+# onClick res/layout/activity_tab_pagertab__main.xml #generated:76
+-keepclassmembers class * { *** onColorClicked(...); }
+
+# onClick res/layout/activity_listviews_examples_itemmanipulations.xml #generated:18
+-keepclassmembers class * { *** onDragAndDropClicked(...); }
+
+# onClick res/layout/activity_listviews_examples_itemmanipulations.xml #generated:39
+-keepclassmembers class * { *** onExpandListItemAdapterClicked(...); }
+
+# onClick res/layout/activity_listviews_main.xml #generated:11
+-keepclassmembers class * { *** onGoogleCardsExampleClicked(...); }
+
+# onClick res/layout/activity_listviews_main.xml #generated:18
+-keepclassmembers class * { *** onGridViewExampleClicked(...); }
+
+# onClick res/layout/activity_listviews_main.xml #generated:32
+-keepclassmembers class * { *** onItemManipulationClicked(...); }
+
+# onClick res/layout/activity_listviews_examples_itemmanipulations.xml #generated:25
+-keepclassmembers class * { *** onSwipeDismissClicked(...); }
+
+# onClick res/layout/activity_property_main.xml #generated:16
+-keepclassmembers class * { *** testAnimationSet(...); }
+
+# onClick res/layout/activity_property_main.xml #generated:23
+-keepclassmembers class * { *** testAnimationXML(...); }
+
+# onClick res/layout/activity_property_main.xml #generated:51
+-keepclassmembers class * { *** testKeyFrames(...); }
+
+# onClick res/layout/activity_property_main.xml #generated:9
+-keepclassmembers class * { *** testObjectAnimator(...); }
+
+# onClick res/layout/activity_property_main.xml #generated:30
+-keepclassmembers class * { *** testPropertyValuesHolder(...); }
+
+# onClick res/layout/activity_property_main.xml #generated:44
+-keepclassmembers class * { *** testTypeEvaluator(...); }
+
+# onClick res/layout/activity_property_main.xml #generated:37
+-keepclassmembers class * { *** testViewPropertyAnimator(...); }
+

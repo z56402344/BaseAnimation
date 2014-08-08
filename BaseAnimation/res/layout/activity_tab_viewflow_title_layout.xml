@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.duguang.baseanimation"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/header_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <com.duguang.baseanimation.ui.tab.viewflow.library.TitleFlowIndicator
+            android:id="@+id/viewflowindic"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            app:clipPadding="5dp"
+            app:customTypeface="fonts/Antic.ttf"
+            app:footerColor="#FFFFC445"
+            app:footerLineHeight="2dp"
+            app:footerTriangleHeight="10dp"
+            app:selectedColor="#FFFFC445"
+            app:selectedSize="12dp"
+            app:textColor="#FFFFFFFF"
+            app:textSize="11dp"
+            app:titlePadding="10dp" />
+    </LinearLayout>
+
+    <com.duguang.baseanimation.ui.tab.viewflow.library.ViewFlow
+        android:id="@+id/viewflow"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:duplicateParentState="true" />
+
+</LinearLayout>

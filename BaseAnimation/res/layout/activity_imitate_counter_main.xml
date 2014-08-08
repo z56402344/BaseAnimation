@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.duguang.baseanimation.ui.imitate.counter.widget.ExpressEditText
+            android:id="@+id/expressEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="90dp"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:gravity="right|center_vertical"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:scrollbars="vertical"
+            android:singleLine="false" />
+
+        <TableLayout
+            android:id="@+id/innerkeyboard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:gravity="right"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/clear"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_span="2"
+                    android:text="@string/clear"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/backspace"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_span="2"
+                    android:text="@string/backspace"
+                    android:textSize="25sp" />
+            </TableRow>
+
+            <TableRow android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/pi"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/pi" />
+
+                <Button
+                    android:id="@+id/num7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/num7"
+                    android:textColor="@color/blue"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/num8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/num8"
+                    android:textColor="@color/blue"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/num9"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/num9"
+                    android:textColor="@color/blue"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/divide"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/divide"
+                    android:textColor="@color/red"
+                    android:textSize="25sp" />
+            </TableRow>
+
+            <TableRow android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/e"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/e" />
+
+                <Button
+                    android:id="@+id/num4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/num4"
+                    android:textColor="@color/blue"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/num5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/num5"
+                    android:textColor="@color/blue"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/num6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/num6"
+                    android:textColor="@color/blue"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/multiply"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/multiply"
+                    android:textColor="@color/red"
+                    android:textSize="25sp" />
+            </TableRow>
+
+            <TableRow android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/sqrt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/sqrt" />
+
+                <Button
+                    android:id="@+id/num1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/num1"
+                    android:textColor="@color/blue"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/num2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/num2"
+                    android:textColor="@color/blue"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/num3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/num3"
+                    android:textColor="@color/blue"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/sub"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/sub"
+                    android:textColor="@color/red"
+                    android:textSize="25sp" />
+            </TableRow>
+
+            <TableRow android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/cbrt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/cbrt" />
+
+                <Button
+                    android:id="@+id/num0"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/num0"
+                    android:textColor="@color/blue"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/dot"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/dot"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/equals"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/equals"
+                    android:textColor="@color/darkblue"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/add"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/add"
+                    android:textColor="@color/red"
+                    android:textSize="25sp" />
+            </TableRow>
+
+            <TableRow android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/more"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/more" />
+
+                <Button
+                    android:id="@+id/comma"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/comma"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/lparenthesis"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/lparenthesis"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/rparenthesis"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/rparenthesis"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/remainder"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/remainder"
+                    android:textSize="25sp" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:id="@+id/indepLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/indepClearButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:text="@string/indepClearText" />
+
+            <Button
+                android:id="@+id/indepCalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:text="@string/indepCalText" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

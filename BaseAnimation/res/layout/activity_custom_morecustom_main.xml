@@ -1,0 +1,492 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.duguang.baseanimation.ui.customview.morecustom.MyScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/relative1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="284dip"
+                    android:background="#99CC66" />
+
+                <RelativeLayout
+                    android:id="@+id/relative2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/viewpager" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dip"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2014年1月"
+                            android:textColor="#f6466c"
+                            android:textSize="14sp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="3dip"
+                                android:text="3日"
+                                android:textColor="#000000"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="3dip"
+                                android:text="周一"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/view"
+                        android:layout_width="1sp"
+                        android:layout_height="40dip"
+                        android:layout_centerInParent="true"
+                        android:background="@android:color/darker_gray" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dip"
+                        android:layout_toRightOf="@id/view"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PM2.5"
+                            android:textColor="#f6466c"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="101"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip" >
+
+                <LinearLayout
+                    android:id="@+id/ll_01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:src="@drawable/icon_morecustom_07" />
+
+                    <View
+                        android:layout_width="3dip"
+                        android:layout_height="30dip"
+                        android:layout_marginLeft="21dip"
+                        android:background="@android:color/darker_gray" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/ll_01"
+                    android:layout_marginLeft="3dip"
+                    android:layout_toRightOf="@id/ll_01"
+                    android:text="预计今天是排卵日"
+                    android:textColor="#f6466c"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:id="@+id/ll_02"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <!-- <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dip"
+                        android:background="@android:color/holo_blue_bright" /> -->
+
+                    <View
+                        android:layout_width="3dip"
+                        android:layout_height="30dip"
+                        android:layout_marginLeft="21dip"
+                        android:background="@android:color/darker_gray" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:id="@+id/ll_03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:src="@drawable/icon_morecustom_10" />
+
+                    <View
+                        android:layout_width="3dip"
+                        android:layout_height="60dip"
+                        android:layout_marginLeft="21dip"
+                        android:background="@android:color/darker_gray" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_title03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/ll_03"
+                    android:layout_marginLeft="3dip"
+                    android:layout_toRightOf="@id/ll_03"
+                    android:text="月经期第二天宜做的事情"
+                    android:textColor="#f6466c"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/tv_title03"
+                    android:layout_below="@id/tv_title03"
+                    android:layout_marginTop="5dip"
+                    android:text="1.少量的运动 2.少吃水果"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:id="@+id/ll_04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:src="@drawable/icon_morecustom_12" />
+
+                    <View
+                        android:layout_width="3dip"
+                        android:layout_height="160dip"
+                        android:layout_marginLeft="21dip"
+                        android:background="@android:color/darker_gray" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_title04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/ll_04"
+                    android:layout_marginLeft="3dip"
+                    android:layout_toRightOf="@id/ll_04"
+                    android:text="今天已记录56项"
+                    android:textColor="#f6466c"
+                    android:textSize="18sp" />
+
+                <ListView
+                    android:id="@+id/lv1"
+                    android:layout_width="280dip"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/tv_title04"
+                    android:layout_below="@id/tv_title04"
+                    android:layout_marginTop="5dip"
+                    android:divider="@null" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:id="@+id/ll_05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:src="@drawable/icon_morecustom_14" />
+
+                    <View
+                        android:layout_width="3dip"
+                        android:layout_height="120dip"
+                        android:layout_marginLeft="21dip"
+                        android:background="@android:color/darker_gray" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_title05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/ll_05"
+                    android:layout_marginLeft="3dip"
+                    android:layout_toRightOf="@id/ll_05"
+                    android:text="今天的心情如何?"
+                    android:textColor="#f6466c"
+                    android:textSize="18sp" />
+
+                <ListView
+                    android:id="@+id/lv3"
+                    android:layout_width="280dip"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/tv_title05"
+                    android:layout_below="@id/tv_title05"
+                    android:layout_marginTop="5dip"
+                    android:divider="@null" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:id="@+id/ll_06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:src="@drawable/icon_morecustom_17" />
+
+                    <View
+                        android:layout_width="3dip"
+                        android:layout_height="160dip"
+                        android:layout_marginLeft="21dip"
+                        android:background="@android:color/darker_gray" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_title04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/ll_06"
+                    android:layout_marginLeft="3dip"
+                    android:layout_toRightOf="@id/ll_06"
+                    android:text="戒烟计划第三天"
+                    android:textColor="#f6466c"
+                    android:textSize="18sp" />
+
+                <ListView
+                    android:id="@+id/lv2"
+                    android:layout_width="280dip"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/tv_title04"
+                    android:layout_below="@id/tv_title04"
+                    android:layout_marginTop="5dip"
+                    android:divider="@null" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               >
+
+                <LinearLayout
+                    android:id="@+id/ll_07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:src="@drawable/icon_morecustom_21" />
+
+                    <View
+                        android:layout_width="3dip"
+                        android:layout_height="35dip"
+                        android:layout_marginLeft="21dip"
+                        android:background="@android:color/darker_gray" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/ll_07"
+                    android:layout_marginLeft="3dip"
+                    android:layout_toRightOf="@id/ll_07"
+                    android:text="发现:"
+                    android:textColor="#f6466c"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/tv_tv_07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="夜店公主套装"
+                    android:textColor="#f6466c"
+                    android:textSize="18sp" 
+                    android:layout_toRightOf="@id/tv_07"
+                    android:layout_marginLeft="3dip"
+                    />
+                <TextView
+                    android:layout_marginLeft="3dip"
+                    android:layout_toRightOf="@id/tv_tv_07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="怀孕指数马上爆灯^_^"
+                    android:textSize="18sp" 
+                    />
+                
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               >
+
+                <LinearLayout
+                    android:id="@+id/ll_08"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:src="@drawable/icon_morecustom_23" />
+
+                    <View
+                        android:layout_width="3dip"
+                        android:layout_height="35dip"
+                        android:layout_marginLeft="21dip"
+                        android:background="@android:color/darker_gray" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_08"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/ll_08"
+                    android:layout_marginLeft="3dip"
+                    android:layout_toRightOf="@id/ll_08"
+                    android:text="今日星运:"
+                    android:textColor="#f6466c"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dip"
+                    android:layout_toRightOf="@id/tv_08"
+                    android:text="白羊座"
+                    android:textColor="#f6466c"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:id="@+id/ll_ll_08"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/tv_08"
+                    android:layout_below="@id/tv_08"
+                    android:layout_marginTop="3dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="健康指数:"
+                        android:textSize="18sp" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dip"
+                        android:text="5.5"
+                        android:textColor="#f6466c"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginTop="3dip"
+                    android:layout_toRightOf="@id/ll_ll_08"
+                    android:layout_alignBottom="@id/ll_ll_08"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="爱情指数"
+                        android:textSize="18sp" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dip"
+                        android:text="8.5"
+                        android:textColor="#f6466c"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dip"
+                />
+        </LinearLayout>
+    </com.duguang.baseanimation.ui.customview.morecustom.MyScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/custom_song_icon"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/notification_sing_icon" />
+
+    <LinearLayout
+        android:id="@+id/ll_custom_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btn_custom_prev"
+            style="@style/btn_custom_style"
+            android:src="@drawable/notification_btn_prev" />
+
+        <ImageButton
+            android:id="@+id/btn_custom_play"
+            style="@style/btn_custom_style"
+            android:contentDescription="播放"
+            android:src="@drawable/notification_btn_play" />
+
+        <ImageButton
+            android:id="@+id/btn_custom_next"
+            style="@style/btn_custom_style"
+            android:contentDescription="下一首"
+            android:src="@drawable/notification_btn_next" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="5dip"
+        android:layout_toLeftOf="@id/ll_custom_button"
+        android:layout_toRightOf="@id/custom_song_icon"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_custom_song_singer"
+            style="@style/NotificationTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="title"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_custom_song_name"
+            style="@style/NotificationContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="content"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

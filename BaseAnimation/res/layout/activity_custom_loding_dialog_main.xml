@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick"
+        android:background="@drawable/bt_pay_selector"
+        android:layout_centerInParent="true"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:text="show Dialog" 
+        android:textColor="@android:color/white"/>
+    
+    
+
+</RelativeLayout>

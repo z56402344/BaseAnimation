@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/av"
+        android:drawable="@drawable/icon_tab_winter_ab"/>
+    <item
+        android:id="@+id/ae"
+        android:drawable="@drawable/icon_tab_winter_ab"/>
+    <item
+        android:id="@+id/af"
+        android:drawable="@drawable/icon_tab_winter_ab"/>
+
+</layer-list>

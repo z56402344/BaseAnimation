@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- 显示动画-->
+
+
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+<scale  android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+
+          android:fromXScale="0.0"
+
+          android:toXScale="1.0"
+
+          android:fromYScale="0.0"
+
+          android:toYScale="1.0"
+
+          android:pivotX="50%"
+
+          android:pivotY="50%"
+
+          android:fillAfter="false"
+
+          android:duration="400" >
+
+ 
+
+</scale>
+
+
+</set>

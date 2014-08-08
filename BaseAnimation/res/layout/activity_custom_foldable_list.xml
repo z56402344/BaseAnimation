@@ -1,0 +1,4 @@
+<com.duguang.baseanimation.ui.customview.foldablelayout.library.FoldableListLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/foldable_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />

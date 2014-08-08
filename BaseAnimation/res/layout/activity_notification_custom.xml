@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <Button
+        android:id="@+id/btn_show_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示自定义通知栏" />
+
+    <Button
+        android:id="@+id/btn_show_custom_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示带按钮自定义 通知栏" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注意：通知栏按钮只适合3.0及以上版本" />
+
+</LinearLayout>

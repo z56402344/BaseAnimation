@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <com.duguang.baseanimation.ui.canvas.chart.util.MyHori
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_above="@+id/line_button"
+        android:layout_alignParentRight="true" >
+
+        <view
+            android:id="@+id/line_view"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            class="com.duguang.baseanimation.ui.canvas.chart.util.LineView" />
+    </com.duguang.baseanimation.ui.canvas.chart.util.MyHori>
+
+    <SeekBar
+        android:id="@+id/sb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/horizontalScrollView"
+        android:maxHeight="5dp"
+        android:progressDrawable="@drawable/icon_canvas_chart_wj_y1_1"
+        android:thumb="@drawable/icon_canvas_chart_wj_y1_2" />
+    <!--
+    <view
+        android:id="@+id/line_view"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_margin="22dp" 
+        class="com.dacer.androidcharts.LineView" />
+    -->
+
+</RelativeLayout>

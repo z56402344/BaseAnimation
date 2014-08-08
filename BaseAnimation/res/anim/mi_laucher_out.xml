@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!--     透明度渐变
+  <scale
+        android:duration="300"
+        android:fromXScale="1.0"	android:interpolator="@android:anim/overshoot_interpolator"
+        android:fromYScale="1.0"
+        android:pivotX="50%"  android:fillAfter="true"
+        android:pivotY="50%"	
+        android:toXScale="1.2"
+        android:toYScale="1.2" >
+    </scale> -->
+    <alpha android:fromAlpha="1.0"	android:toAlpha="0.0"
+        android:duration="300"	android:fillAfter="true"/>
+</set>

@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.duguang.baseanimation"
+    android:versionCode="113"
+    android:versionName="1.1.3" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <!-- 震动 -->
+    <uses-permission android:name="android.permission.VIBRATE" >
+    </uses-permission>
+
+    <!-- 极光推送模块Start -->
+
+    <permission
+        android:name="com.duguang.baseanimation.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <!-- 仿360浮动插件需要的权限 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <!-- Required  一些系统要求的权限，如访问网络等 -->
+
+    <uses-permission android:name="com.duguang.baseanimation.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!-- Optional for location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <!-- 极光推送模块End -->
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 用于评论模块分享位置信息 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 用于评论模块分享位置信息 -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light" >
+
+        <!-- 修改时间2014.1.20 -->
+        <!-- 原APP样式  android:theme=" @style/Theme.AppCompat.Light   @style/AppCompat" -->
+        <activity
+            android:name="com.duguang.baseanimation.ui.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+        <activity android:name="com.duguang.baseanimation.ui.MainActivity" >
+        </activity>
+        -->
+        <activity android:name="com.duguang.baseanimation.ui.SimpleActivity" >
+        </activity>
+        <activity android:name="com.duguang.baseanimation.ui.ComplexActivity" >
+        </activity>
+        <activity
+            android:name="com.duguang.baseanimation.ui.AboutActivity"
+            android:launchMode="singleTask" >
+        </activity>
+
+        <!-- splashDemo的Activity注册 Stard -->
+        <activity android:name="com.duguang.baseanimation.ui.splash.ZakerActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.splash.SplashMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.splash.LensFocusActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.splash.RotateActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.splash.Rotate3DActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.splash.ViewPagerActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.splash.splitActivity.Activity1" />
+        <activity android:name="com.duguang.baseanimation.ui.splash.splitActivity.Activity2" />
+        <activity android:name="com.duguang.baseanimation.ui.splash.splitActivity.Activity3" />
+        <activity android:name="com.duguang.baseanimation.ui.splash.splitActivity.Activity4" />
+        <activity android:name="com.duguang.baseanimation.ui.splash.fade.FadeMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.splash.fade.FadeSplashScreenActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.splash.fade2.Fade2MainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.splash.BackGroundColor.BackGroundColorAnimationActivity" />
+        <!-- splashDemo的END -->
+
+
+        <!-- Flip效果Start -->
+        <activity android:name="com.duguang.baseanimation.ui.flip.FlipMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.flip.FlipTextViewActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.flip.FlipButtonActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.flip.FlipComplexLayoutActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.flip.FlipDeleteAdapterActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.flip.FlipAsyncContentActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.flip.FlipTextViewAltActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.flip.FlipHorizontalLayoutActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.flip.FlipTextViewXmlActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.flip.Issue5Activity" />
+        <activity android:name="com.duguang.baseanimation.ui.flip.FlipFragmentActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.flip.FlipDynamicAdapterActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.flip.FlipWebViewActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.flip.Issue51Activity" />
+        <!-- Flip效果End -->
+
+
+        <!-- 高仿效果Start -->
+        <activity
+            android:name="com.duguang.baseanimation.ui.imitate.ImitateMainActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.duguang.baseanimation.ui.imitate.OutTicketActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.duguang.baseanimation.ui.imitate.TaobaoPathbutton.TaobaoActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.duguang.baseanimation.ui.imitate.YouKuActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.duguang.baseanimation.ui.imitate.SpinnerMainActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.duguang.baseanimation.ui.imitate.gallery.GalleryMainActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.duguang.baseanimation.ui.imitate.RadarMainActivity"
+            android:launchMode="singleTask" />
+        <activity android:name="com.duguang.baseanimation.ui.imitate.counter.CalculatorActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.imitate.counter.HelpAboutActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.imitate.counter.MoreFunctionsActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.imitate.biaopan.BiaoPanMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.imitate.waterfall.WaterfallMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.imitate.fang360.RootblockMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.imitate.wheel.WheelMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.imitate.widget.WidgetMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.imitate.weixin.WeixinChatDemoActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.imitate.viberation.ViberationMain" />
+        <activity android:name="com.duguang.baseanimation.ui.imitate.SlidingDrawerMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.imitate.taobaoPath2.PathMenuMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.imitate.addshopcartanim.AddShopCartMainActivity" />
+		 <activity android:name="com.duguang.baseanimation.ui.imitate.titanic.TitanicMainActivity" />
+        <!-- 高仿效果End -->
+
+
+        <!-- ListView集合效果Start -->
+        <activity
+            android:name="com.duguang.baseanimation.ui.listivew.ListViewMani"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.duguang.baseanimation.ui.listivew.deletelistview.DeleteListViewMainActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.duguang.baseanimation.ui.listivew.refresh.RefreshMainActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.duguang.baseanimation.ui.listivew.sortlistview.SortListViewMainActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.duguang.baseanimation.ui.listivew.indexlistview.IndexMainActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.duguang.baseanimation.ui.listivew.deleteleft.DeleteLeftMainActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.duguang.baseanimation.ui.listivew.deletealpha.DeleteAlphaMainActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.duguang.baseanimation.ui.listivew.listviews.ListViewsMainActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.duguang.baseanimation.ui.listivew.listviews.MyListActivity" />
+        <activity
+            android:name="com.duguang.baseanimation.ui.listivew.listviews.appearanceexamples.AppearanceExamplesActivity"
+            android:label="@string/appearance" />
+        <activity
+            android:name="com.duguang.baseanimation.ui.listivew.listviews.GoogleCardsActivity"
+            android:label="@string/googlecards" />
+        <activity
+            android:name="com.duguang.baseanimation.ui.listivew.listviews.itemmanipulationexamples.ItemManipulationsExamplesActivity"
+            android:label="@string/itemmanipulation" />
+        <activity
+            android:name="com.duguang.baseanimation.ui.listivew.listviews.itemmanipulationexamples.DragAndDropActivity"
+            android:label="@string/draganddrop" />
+        <activity
+            android:name="com.duguang.baseanimation.ui.listivew.listviews.itemmanipulationexamples.SwipeDismissActivity"
+            android:label="@string/swipedismiss" />
+        <activity
+            android:name="com.duguang.baseanimation.ui.listivew.listviews.itemmanipulationexamples.AnimateDismissActivity"
+            android:label="@string/animateremoval" />
+        <activity
+            android:name="com.duguang.baseanimation.ui.listivew.listviews.GridViewActivity"
+            android:label="@string/gridviewexample" />
+        <activity
+            android:name="com.duguang.baseanimation.ui.listivew.listviews.itemmanipulationexamples.ExpandableListItemActivity"
+            android:label="@string/expandablelistitemadapter" />
+        <activity android:name="com.duguang.baseanimation.ui.listivew.interceptor.ListViewInterceptorMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.listivew.listforpage.ListForPageMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.tab.paralloid.ParalloidHomeActivity" />
+
+        <!-- ListView集合效果End -->
+
+
+        <!-- 自定义控件集合效果Start -->
+        <activity android:name="com.duguang.baseanimation.ui.customview.CustomViewMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.clickdeflect.ClickDeflectActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.morecustom.MoreCustomMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.circlemenu.CircleMenuMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.titlelistview.TitleListViewMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.gallerylistview.GalleryListViewMain" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.ribbomenu.RibbonMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.hscrollview.ScrollviewMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.progressbar.ProgressBarMain" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.progressbar.ProgressBar_Color" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.progressbar.ProgressBar_Indeter" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.progressbar.ProgressBar_Left" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.progressbar.ProgressBar_Right" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.lodingdialog.LoadingDialogMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.popwindow.PoupWindowMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.DialogsMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.yzhou.TwoSidedViewActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.TransparentPopWindowMenu" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.serchfly.SearchFlyActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.badger.BadgerMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.switchs.SwitchMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.milaucher.MiLaucherMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.secrettextview.SecretTextViewActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.foldablelayout.activity.FoldableBaseActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.foldablelayout.activity.FoldableListMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.customview.foldablelayout.activity.UnfoldableDetailsMainActivity" />
+      
+       
+       
+        <!-- 自定义控件集合效果End -->
+
+
+        <!-- Tab页面滑动切换效果集合Start -->
+        <activity android:name="com.duguang.baseanimation.ui.tab.TabMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.tab.WinterMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.tab.scroll.ScrollViewMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.tab.gviewpager.GViewPagerMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.tab.gviewpager.GViewPagerMainActivityOne" />
+        <activity android:name="com.duguang.baseanimation.ui.tab.gviewpager.GViewPagerMainActivityTwo" />
+        <activity android:name="com.duguang.baseanimation.ui.tab.tabhost.TabHostMoveMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.tab.PagerTabStrip.PagerTabMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.tab.viewflow.AsyncDataFlowActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.tab.viewflow.CircleViewFlowActivity" android:theme="@android:style/Holo.ButtonBar"/>
+        <activity android:name="com.duguang.baseanimation.ui.tab.viewflow.DiffViewFlowActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.tab.viewflow.TitleViewFlowActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.tab.viewflow.ViewFlowActivity" />
+        <!-- Tab页面滑动切换效果集合End -->
+
+
+        <!-- NineOld效果集合Start -->
+
+        <activity
+            android:name="com.duguang.baseanimation.ui.nineold.NineOldMani"
+            android:label="Demos" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.duguang.baseanimation" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.duguang.baseanimation.ui.nineold.Toggles"
+            android:label="Toggles" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.duguang.baseanimation" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.duguang.baseanimation.ui.nineold.VPADemo"
+            android:label="ViewPropertyAnimator Demo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.duguang.baseanimation" />
+            </intent-filter>
+        </activity>
+
+        <!-- API DEMOS -->
+        <activity
+            android:name="com.duguang.baseanimation.ui.nineold.apidemos.AnimationCloning"
+            android:label="API Demos/Animation Cloning" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.duguang.baseanimation" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.duguang.baseanimation.ui.nineold.apidemos.AnimationLoading"
+            android:label="API Demos/Animation Loading" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.duguang.baseanimation" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.duguang.baseanimation.ui.nineold.apidemos.AnimationSeeking"
+            android:label="API Demos/Animation Seeking" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.duguang.baseanimation" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.duguang.baseanimation.ui.nineold.apidemos.AnimatorEvents"
+            android:label="API Demos/Animator Events" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.duguang.baseanimation" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.duguang.baseanimation.ui.nineold.apidemos.BouncingBalls"
+            android:label="API Demos/Bouncing Balls" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.duguang.baseanimation" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.duguang.baseanimation.ui.nineold.apidemos.CustomEvaluator"
+            android:label="API Demos/Custom Evaluator" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.duguang.baseanimation" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.duguang.baseanimation.ui.nineold.apidemos.MultiPropertyAnimation"
+            android:label="API Demos/Multi-Property Animation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.duguang.baseanimation" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.duguang.baseanimation.ui.nineold.apidemos.ReversingAnimation"
+            android:label="API Demos/Reversing Animation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.duguang.baseanimation" />
+            </intent-filter>
+        </activity>
+
+        <!-- DROID FLAKES -->
+        <activity
+            android:name="com.duguang.baseanimation.ui.nineold.droidflakes.Droidflakes"
+            android:label="Droid Flakes" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.duguang.baseanimation" />
+            </intent-filter>
+        </activity>
+
+        <!-- PATH ANIMATION -->
+        <activity
+            android:name="com.duguang.baseanimation.ui.nineold.pathanimation.PathAnimationActivity"
+            android:label="Path Animation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.duguang.baseanimation" />
+            </intent-filter>
+        </activity>
+        <!-- NineOld效果集合End -->
+
+
+        <!-- Property效果Start -->
+        <activity android:name="com.duguang.baseanimation.ui.property.PropertyAnimationActivity" />
+        <!-- Property效果End -->
+
+
+        <!-- Canvas效果Start -->
+        <activity android:name="com.duguang.baseanimation.ui.canvas.olympics.OlympicMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.canvas.CanvasMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.canvas.chart.charts.ChartMainActivity" />
+        <!-- Canvas效果End -->
+
+
+        <!-- 手势库效果Start -->
+        <activity android:name="com.duguang.baseanimation.ui.gesturepassword.homekey.homekey.HomeLoginActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.gesturepassword.homekey.GesturePasswordDemoActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.gesturepassword.homekey.GestureParentActivity" />
+        <!-- 手势库效果End -->
+
+
+        <!-- Notification开始 -->
+        <activity android:name="com.duguang.baseanimation.ui.notification.BaseNotificationActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.notification.CustomActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.notification.NotificationMainActivity" />
+        <activity android:name="com.duguang.baseanimation.ui.notification.ProgressAcitivty" />
+        <!-- Notification结束 -->
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="52c4c16956240bce2e08eeb0" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="UMENG" />
+
+        <service
+            android:name="com.umeng.common.net.DownloadingService"
+            android:process=":DownloadingService" >
+        </service>
+
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.umeng.fb.ConversationActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.umeng.fb.ContactActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- ###################注册SDK使用的Activity###################### -->
+        <!-- 分享编辑页 -->
+        <activity
+            android:name="com.umeng.socialize.view.ShareActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/Theme.UMDialog"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+
+        <!-- 查看评论页 -->
+        <activity
+            android:name="com.umeng.socialize.view.CommentActivity"
+            android:configChanges="orientation|keyboard"
+            android:theme="@style/Theme.UMDefault" >
+        </activity>
+        <!-- 详细评论页 -->
+        <activity
+            android:name="com.umeng.socialize.view.CommentDetail"
+            android:configChanges="orientation|keyboard"
+            android:noHistory="true"
+            android:theme="@style/Theme.UMDefault" >
+        </activity>
+        <!-- 无地图功能的详细评论页 -->
+        <activity
+            android:name="com.umeng.socialize.view.CommentDetailNoMap"
+            android:configChanges="orientation|keyboard"
+            android:noHistory="true"
+            android:theme="@style/Theme.UMDefault" >
+        </activity>
+
+        <!-- ############ QQ空间和QQ SSO授权的Activity注册 ############ -->
+        <activity android:name="com.tencent.tauth.AuthActivity" />
+
+        <!-- ++++++++极光推送End++++++++ -->
+        <!-- Required SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.duguang.baseanimation" />
+            </intent-filter>
+        </activity>
+        <!-- Required  SDK核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <!-- Required SDK 核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+
+        <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true" >
+            <intent-filter android:priority="1000" >
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> <!-- Required  显示通知栏 -->
+                <category android:name="com.duguang.baseanimation" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required SDK核心功能 -->
+        <receiver android:name="cn.jpush.android.service.AlarmReceiver" />
+
+        <!-- User defined.  For test only  用户自定义的广播接收器 -->
+        <receiver
+            android:name="com.duguang.baseanimation.receicer.MyReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" /> <!-- Required  用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.UNREGISTRATION" />
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" /> <!-- Required  用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> <!-- Required  用户接收SDK通知栏信息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> <!-- Required  用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" /> <!-- Optional 用户接受Rich Push Javascript 回调函数的intent -->
+                <category android:name="com.duguang.baseanimation" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required  . Enable it you can get statistics data with channel -->
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="b1761da7074c7474f2380ea4" /> <!-- </>值来自开发者平台取得的AppKey -->
+
+
+        <!-- +++++++极光推送End++++++++ -->
+
+
+        <!-- 服务区域Start -->
+
+        <service android:name="com.duguang.baseanimation.ui.imitate.widget.MserServes" />
+        <!-- 服务区域End -->
+
+    </application>
+
+</manifest>

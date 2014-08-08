@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+	<ImageButton
+	    android:id="@+id/cell_trash_button"
+	    android:layout_width="48dp"
+	    android:layout_height="48dp"
+	    android:src="@drawable/delete_left_trash_can"
+	    android:scaleType="fitXY" />
+	
+	<TextView
+	    android:id="@+id/cell_name_textview"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical|left"
+	    android:layout_marginLeft="16dp"
+	    android:layout_weight="1"
+	    android:text="cell name" />
+	
+</LinearLayout>

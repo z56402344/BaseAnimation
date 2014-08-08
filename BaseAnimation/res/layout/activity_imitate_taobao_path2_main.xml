@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/path2_default_homebg">
+
+    <RelativeLayout
+        android:id="@+id/composer_buttons_wrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:clipChildren="false"
+        android:clipToPadding="false" >
+
+        <ImageButton
+            android:id="@+id/composer_button_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="142dp"
+            android:layout_marginRight="10.667dp"
+            android:background="@drawable/path2_composer_camera"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/composer_button_people"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="135.333dp"
+            android:layout_marginRight="52dp"
+            android:background="@drawable/path2_composer_with"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/composer_button_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="116.666dp"
+            android:layout_marginRight="89.33333333333333dp"
+            android:background="@drawable/path2_composer_place"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/composer_button_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="87.33333333333333dp"
+            android:layout_marginRight="118.6666666666667dp"
+            android:background="@drawable/path2_composer_music"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/composer_button_thought"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="137.3333333333333dp"
+            android:background="@drawable/path2_composer_thought"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/composer_button_sleep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="8.666666666666667dp"
+            android:layout_marginRight="144dp"
+            android:background="@drawable/path2_composer_sleep"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/composer_buttons_show_hide_button"
+        android:layout_width="60dp"
+        android:layout_height="57.33333333333333dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/path2_composer_button" >
+
+        <ImageView
+            android:id="@+id/composer_buttons_show_hide_button_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/path2_composer_icn_plus" />
+    </RelativeLayout>
+</RelativeLayout>

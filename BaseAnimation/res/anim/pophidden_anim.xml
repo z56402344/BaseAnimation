@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- 消失动画-->
+
+
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+ <!-- 透明度渐变-->
+
+ <alpha android:fromAlpha="1.0" android:toAlpha="0.0" android:duration="200" />
+
+</set>
+

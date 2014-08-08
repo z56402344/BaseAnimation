@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.taurusxi.guidebackgroundcoloranimation.sample.SampleActivity" >
+
+    <com.duguang.baseanimation.ui.splash.BackGroundColor.ColorAnimationView
+        android:id="@+id/ColorAnimationView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp" />
+
+</FrameLayout>

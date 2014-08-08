@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dip"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="120dip"
+            android:layout_height="120dip" >
+
+            <ImageView
+                android:layout_width="80dip"
+                android:layout_height="80dip"
+                android:layout_gravity="center"
+                android:src="@drawable/act_radar_bg" />
+
+            <ImageView
+                android:id="@+id/im_scan"
+                android:layout_width="65dip"
+                android:layout_height="65dip"
+                android:layout_gravity="center"
+                android:src="@drawable/act_radar_scanning_03" />
+
+            <ImageView
+                android:id="@+id/im_dian"
+                android:layout_width="65dip"
+                android:layout_height="65dip"
+                android:layout_gravity="center"
+                android:src="@drawable/act_radar_dian_03" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_lodingApk"
+                android:singleLine="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正在扫描:XXX.Apk"
+                android:textSize="12sp" />
+
+            <ProgressBar
+                android:id="@+id/pb_loding"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:progressDrawable="@drawable/progress_horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/ll_scanText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

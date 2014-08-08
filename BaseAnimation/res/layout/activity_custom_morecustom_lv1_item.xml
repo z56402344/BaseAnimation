@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dip"
+    android:background="@android:drawable/editbox_background"
+   >
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dip"
+        android:background="@drawable/icon_morecustom_launcher" />
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dip"
+        android:layout_marginTop="3dip"
+        android:layout_toRightOf="@id/iv"
+        android:text="今天爱爱的记录"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@id/tv_1"
+        android:text="相当高"
+        android:textColor="#f6466c"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_1"
+        android:layout_below="@id/tv_1"
+        android:layout_marginTop="6dip"
+        android:text="给老公一个爱的暗示吧"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp" />
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_morecustom_arrow"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        />
+    <View android:layout_width="match_parent"
+        android:layout_height="5dip"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

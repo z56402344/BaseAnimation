@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/custom_progress_icon"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dip"
+        android:padding="5dip"
+        android:src="@drawable/notification_icon" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/custom_progress_icon" >
+
+        <TextView
+            android:id="@+id/tv_custom_progress_title"
+            style="@style/NotificationTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="title"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_custom_progress_status"
+            style="@style/NotificationContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_custom_progress_title"
+            android:layout_centerHorizontal="true"
+            android:text=""
+            android:textSize="12sp" />
+
+        <ProgressBar
+            android:id="@+id/custom_progressbar"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_custom_progress_status" />
+    </RelativeLayout>
+
+</RelativeLayout>

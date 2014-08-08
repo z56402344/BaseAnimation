@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="0.0px"
+    android:background="@drawable/group_bg"
+    android:orientation="vertical"
+    android:paddingLeft="0.0sp"
+    android:paddingRight="0.0sp" >
+
+    <TextView
+        android:id="@+id/groupAll"
+        style="@style/grouplist_item_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/group_item_height"
+        android:background="@drawable/pop_grouplist_fixed_item_bg"
+        android:gravity="center"
+        android:text="全部" />
+
+    <ImageView
+        android:id="@+id/iv_group_list_bg_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0.0px"
+        android:background="@drawable/group_divider"
+        android:padding="0.0px" />
+
+    <ListView
+        android:id="@+id/lvGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.0"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/group_divider"
+        android:dividerHeight="2.0px"
+        android:drawSelectorOnTop="true"
+        android:fadingEdgeLength="0.0sp"
+        android:listSelector="@drawable/pop_grouplist_item_bg" />
+
+</LinearLayout>

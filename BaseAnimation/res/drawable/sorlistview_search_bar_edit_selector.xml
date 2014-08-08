@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:drawable="@drawable/sorlistview_search_bar_edit_pressed"></item>
+    <item android:state_pressed="true" android:drawable="@drawable/sorlistview_search_bar_edit_pressed"></item>
+    <item android:drawable="@drawable/sorlistview_search_bar_edit_normal"></item>
+</selector>

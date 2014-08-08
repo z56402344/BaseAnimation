@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">安卓动画大集合</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">Hello world!</string>
+    <string name="BaseAnimation">BaseAnimation!</string>
+    <string name="activity_title">FlipView Demo By Aphid Mobile</string>
+    <string name="item_about">about</string>
+    <string name="hide_fragment">Hide Fragment</string>
+    <string name="show_fragment">Show Fragment</string>
+
+    <item name="tag_async_image_view_position" type="id"/>
+
+    <!-- 三级导航相关start -->
+    <string name="third_titlebar_text">声波支付</string>
+    <string name="third_search">搜索中</string>
+    <string name="third_refresh">刷新</string>
+    <string name="third_hint1">手机靠近一点,再靠近一点</string>
+    <string name="third_hint2">请收款方保持在感应区页面</string>
+    <string name="third_timeout">未找到付款人，请重新尝试！</string>
+    <string name="order_num">订   单   号:</string>
+    <string name="order_num2">123456789</string>
+    <string name="order_num3">订单号:123456789</string>
+    <string name="order_num4">订单号:</string>
+    <string name="order_date">收款时间: </string>
+    <string name="order_collectInfo">收款方: </string>
+    <string name="order_paymentInfo">付款方: </string>
+    <string name="order_serial_num">流水号: </string>
+    <string name="order_sum">交易金额: </string>
+    <string name="serach_payment">找到收款人，请等待付款!</string>
+    <string name="total_money">收款金额:</string>
+    <string name="total_money2">100元</string>
+    <string name="total_money3">收款金额:100元</string>
+    <string name="hint_success">收款成功!</string>
+    <string name="payment1">付   款   人:</string>
+    <string name="payment2">王某某</string>
+    <string name="paydate1">到账时间:</string>
+    <string name="paydate2">2014年1月15日</string>
+    <string name="hint_Thank">THANK YOU</string>
+    <string name="hint_paymethod">只要客人手机上安装有中银易付客户端,即可使用声波支付</string>
+    <string name="hint_paycondition">声波支付条件</string>
+    <string name="hint_name">第一个引导页面</string>
+    <string name="hint_payfail">收款失败,请重新尝试...</string>
+    <string name="hint_payagain">重新收款</string>
+    <string name="hint_cancel">取  消</string>
+    <string name="hint_confirm">确  认</string>
+    <!-- 三级导航相关end -->
+
+
+    <!-- ListViewsx效果集合Start -->
+    <string name="menu_donate">Buy me a beer!</string>
+    <string name="menu_beer">Buy me a beer!</string>
+    <string name="menu_beer2">Buy me 2 beers!</string>
+    <string name="menu_beer3">Buy me 5 beers!</string>
+    <string name="menu_beer4">Buy me 10 beers!</string>
+    <string name="menu_github">Github</string>
+    <string name="googlecards">Google cards example</string>
+    <string name="gridview">GridView example</string>
+    <string name="appearance">Appearance Animation</string>
+    <string name="limit">Limit to 2</string>
+    <string name="itemmanipulation">Item Manipulation</string>
+    <string name="gridviewexample">GridView example</string>
+    <string name="draganddrop">Drag and Drop</string>
+    <string name="swipedismiss">Swipe to dismiss</string>
+    <string name="animateremoval">Animate dismiss</string>
+    <string name="removeselected">Remove selected</string>
+    <string name="expandablelistitemadapter">Expand list items</string>
+    <string name="itemdeleted">Item deleted</string>
+    <string name="taptoundo">Tap to undo</string>
+    <string name="explainexpand">Tap on cards to expand or collapse them</string>
+    <string name="expandorcollapsecard">This is card number %d</string>
+
+    <plurals name="countdown_seconds">
+        <item quantity="one">Dismissing in 1...</item>
+        <item quantity="other">Dismissing in %d...</item>
+    </plurals>
+
+    <string name="countdown_dismissing">Dismissing</string>
+
+    <!-- ListViewsx效果集合End -->
+
+
+    <!-- circlemenu -->
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="google">Google</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="wordpress">Wordpress</string>
+    <string name="myspace">Myspace</string>
+    <string name="start_app">Starting application:</string>
+    <!-- circlemenu -->
+
+
+    <!-- 计算器Start -->
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="num4">4</string>
+    <string name="num5">5</string>
+    <string name="num6">6</string>
+    <string name="num7">7</string>
+    <string name="num8">8</string>
+    <string name="num9">9</string>
+    <string name="num0">0</string>
+    <string name="pi">π</string>
+    <string name="e">e</string>
+    <string name="and">&amp;</string>
+    <string name="or">|</string>
+    <string name="add">+</string>
+    <string name="sub">-</string>
+    <string name="multiply">×</string>
+    <string name="divide">÷</string>
+    <string name="sqrt">sqrt</string>
+    <string name="cbrt">cbrt</string>
+    <string name="dot">.</string>
+    <string name="equals">=</string>
+    <string name="clear">c</string>
+    <string name="lparenthesis">(</string>
+    <string name="rparenthesis">)</string>
+    <string name="remainder">%</string>
+    <string name="backspace">←</string>
+    <string name="comma">,</string>
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="tan">tan</string>
+    <string name="log">log</string>
+    <string name="more">…</string>
+    <string name="indepCalText">计算</string>
+    <string name="indepClearText">清空</string>
+    <string name="helpabout">帮助/关于</string>
+    <string name="morefuncs">更多操作</string>
+    <string name="helpContent">	    运算符说明:\n
+	    \t+: 加号\n
+	    \t-: 减号/负号\n
+	    \t*: 乘号,亦可写作×\n
+	    \t/: 除号,亦可写作÷\n
+	    \t%: 取余\n
+	    \t&amp;: 按位与\n
+	    \t|: 按位或\n
+	    \t^: 按位异或\n
+	    \t~: 按位非,其前面没有操作数\n
+	    
+	    
+	 \n常数说明:\n
+	 	\tπ: 值为3.141592653589793,亦可写作PI\n
+	 	\te: 值为2.718281828459045,亦可写作E\n
+	 \n功能说明(涉及度数的单位均为角度):\n
+	  	\tsin: 正弦\n
+	  	\tasin: 反正弦\n
+	  	\tcos: 余弦\n
+	  	\tacos: 反余弦\n
+	  	\ttan: 正切\n
+	  	\tatan: 反正切\n
+	  	\tabs: 绝对值\n
+	  	\texp: e的指定数次幂\n
+	  	\tln: 以e为底,n的对数\n
+	  	\tlog: 以10为底,n的对数\n
+	  	\tpow: a的b次幂,第一个操作数为a,第二个操作数为b,中间用逗号隔开\n</string>
+    <string name="aboutContent">	    本计算器由Freish制作\n\n欢迎使用\n</string>
+    <!-- 计算器End -->
+
+
+    <!-- 自定义进度条Start -->
+    <string name="color">自定义颜色进度条</string>
+    <string name="left">自左向右的进度条</string>
+    <string name="right">自右向左的进度条</string>
+    <string name="indeter">不确定的进度条</string>
+    <!-- 自定义进度条End -->
+
+
+    <!--  -->
+    <string name="gridview1">九宫格1</string>
+    <string name="gridview2">九宫格2</string>
+    <string name="gridview3">九宫格3</string>
+    <string name="gridview4">九宫格4</string>
+    <string name="gridview5">九宫格5</string>
+    <string name="gridview6">九宫格6</string>
+    <string name="gridview7">九宫格7</string>
+    <string name="gridview8">九宫格8</string>
+    <string name="gridview9">九宫格9</string>
+    <!--  -->
+
+
+    <!-- 翻页效果的listView ListForPage  Start -->
+    <string name="textLeft">Preview</string>
+    <string name="textRight">Next</string>
+    <string name="total">Total</string>
+    <string name="current">Current</string>
+    <!-- 翻页效果的listView ListForPage  End -->
+
+
+    <!-- 小米启动 -->
+    <string name="ani_time">350</string>
+    <string name="ani_time2">700</string>
+    <!-- 小米启动 -->
+
+
+    <!-- TabHostMovie -->
+    <string name="up">上一页</string>
+    <string name="next">下一页</string>
+    <!-- TabHostMovie -->
+
+
+    <!-- 绘制图表start -->
+    <string name="title_section1">Line Chart</string>
+    <string name="title_section2">Bar Chart</string>
+    <string name="title_section3">Clock Pie View</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- 绘制图表end -->
+
+
+    <!-- 手势密码 -->
+    <string name="gestureTitle">手势密码</string>
+    <string name="passwordistooshortinputagain">密码太短,请重新绘制!</string>
+    <string name="gesturemanager">手势解锁</string>
+    <string name="setpassword">手势密码设置</string>
+    <string name="originalPasswordInputError">原始密码绘制错误，请重新绘制</string>
+    <string name="setDefaultPassword">请绘制原手势密码</string>
+    <string name="newPasswordInput">请绘制新密码</string>
+    <string name="newPasswordInputAgain">请再次绘制新密码</string>
+    <string name="newPasswordInputError">与上次绘制的新密码不一致，请重新绘制</string>
+    <string name="passwordInputError">密码绘制错误,请重新绘制</string>
+    <string name="setgesturepassword">请绘制手势密码</string>
+    <string name="fogetgesturepassword">忘记手势密码？</string>
+
+    <!-- custom_Flodlayout 用到的资源 -->
+    <string name="year">Year</string>
+    <string name="location">Location</string>
+    <string name="action_contact">Contact</string>
+    <string name="title_section1">Parallax View</string>
+    <string name="title_section2">Shift Background</string>
+    <string name="title_section3">Parallax Background</string>
+    <string name="title_section4">Parallax List Background</string>
+    <string name="title_section5">OverParallax Background</string>
+    <string name="title_invert_transformer">Invert Transformer</string>
+    <string name="title_transform_right">RightAngle Transformer</string>
+    <string name="title_transform_combi">Transformer Combination</string>
+    <string name="peek">Peek a boo!</string>
+    <string name="bacon">Bacon ipsum dolor sit amet ut t-bone ham hock pariatur. Ex aliquip est dolore strip steak enim. Fugiat reprehenderit tenderloin ham hock. Pork minim chicken, jowl do strip steak short loin meatball bacon doner proident nulla eiusmod. Elit veniam beef sunt.</string>
+    <string name="title_title">TitleFlowIndicator</string>
+    <string name="circle_title">CircleFlowIndicator</string>
+    <string name="diff_title">DifferentViewFlow</string>
+    <string name="async_title">AsyncDataLoading</string>
+    
+    <string name="loading">Loading</string>
+
+</resources>

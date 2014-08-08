@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/tabhost" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			
+			<HorizontalScrollView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:fillViewport="true"
+				android:scrollbars="none" android:layout_toLeftOf="@+id/next_button"
+				android:layout_toRightOf="@+id/up_button">
+				<TabWidget android:id="@android:id/tabs"
+					android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+			</HorizontalScrollView>
+		</RelativeLayout>
+		<FrameLayout android:id="@android:id/tabcontent"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<TextView android:id="@+id/textview01" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="@string/hello" />
+			<TextView android:id="@+id/textview02" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="@string/hello" />
+			<TextView android:id="@+id/textview03" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="@string/hello" />
+			<TextView android:id="@+id/textview04" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="@string/hello" />
+			<TextView android:id="@+id/textview05" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="@string/hello" />
+		</FrameLayout>
+	</LinearLayout>
+</TabHost>

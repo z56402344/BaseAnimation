@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <Button
+        android:id="@+id/btn_show_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示带默认样式进度条通知栏" />
+    
+    <Button
+        android:id="@+id/btn_show_un_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示带（不确定）默认样式进度条通知栏" />
+
+    <Button
+        android:id="@+id/btn_show_custom_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示自定义 带进度条的通知栏" />
+
+    <Button
+        android:id="@+id/btn_download_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:text="开始下载" />
+
+    <Button
+        android:id="@+id/btn_download_pause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="暂停下载" />
+
+    <Button
+        android:id="@+id/btn_download_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消下载进度" />
+
+</LinearLayout>

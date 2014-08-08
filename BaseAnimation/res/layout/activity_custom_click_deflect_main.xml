@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <com.duguang.baseanimation.ui.customview.clickdeflect.MyImageView
+                    android:id="@+id/c_joke"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:scaleType="matrix"
+                    android:src="@drawable/ic_click_deflect_left_top" />
+
+                <com.duguang.baseanimation.ui.customview.clickdeflect.MyImageView
+                    android:id="@+id/c_idea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:scaleType="matrix"
+                    android:src="@drawable/ic_click_deflect_left_bottom" />
+            </LinearLayout>
+
+            <com.duguang.baseanimation.ui.customview.clickdeflect.MyImageView
+                android:id="@+id/c_constellation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:scaleType="matrix"
+                android:src="@drawable/ic_click_deflect_right" />
+        </LinearLayout>
+
+        <com.duguang.baseanimation.ui.customview.clickdeflect.MyImageView
+            android:id="@+id/c_recommend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:scaleType="matrix"
+            android:src="@drawable/ic_click_deflect_bottom" />
+    </LinearLayout>
+
+</LinearLayout>

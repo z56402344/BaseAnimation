@@ -1,0 +1,17 @@
+
+
+----------------------BaseAnimation-1.4更新说明------------------------
+
+1.增加画笔绘制效果集合-->加入绘制折线、柱状、圆饼图
+2.增加手势密码
+3.增加Notification效果合集
+4.增加Splash-->		ViewPage滑动背景渐变效果(BackGroundColorAnimationActivity)
+5.增加自定义控件-->		文字随机消失效果(SecretTextViewActivity)
+6.增加自定义控件-->		很炫的折叠打开效果(UnfoldableDetailsMainActivity)
+7.增加自定义控件-->		书翻页效果(FoldableListMainActivity)
+8.页面滑动切换-->		横向选项卡+菜单效果(PagerTabMainActivity)
+9.页面滑动切换-->		八种横向切换+ListView效果(ParalloidHomeActivity)
+10.页面滑动切换-->		顶部带标记的切换页面(CircleViewFlowActivity)
+11.页面滑动切换-->		顶部带标题的切换页面(TitleViewFlowActivity)
+12.页面滑动切换-->		顶部带标题内容不同的切换页面(DiffViewFlowActivity)
+13.页面滑动切换-->		顶部标题是日期的切换页面(AsyncDataFlowActivity)

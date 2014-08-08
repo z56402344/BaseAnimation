@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+
+    <!-- 自定义控件侧边栏需要用到的Start -->
+    <dimen name="rbm_menu_width">200dp</dimen>
+    <dimen name="rbm_item_padding_topbottom">16dp</dimen>
+    <dimen name="rbm_item_padding_leftright">8dp</dimen>
+    <dimen name="rbm_item_image_height">24dp</dimen>
+    <dimen name="rbm_item_image_width">24dp</dimen>
+    <dimen name="rbm_item_text_size">16sp</dimen>
+    <dimen name="rbm_item_text_padding_left">10dp</dimen>
+    <!-- 自定义控件侧边栏需要用到的End -->
+
+
+    <!-- popupWindos -->
+    <dimen name="group_item_height">40.0dip</dimen>
+    <!-- popupWindos -->
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    
+    <dimen name="default_margin">12dp</dimen>
+    <dimen name="demo_view_height">172dp</dimen>
+    <dimen name="demo_view_margin">16dp</dimen>
+
+</resources>

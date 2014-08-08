@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".PropertyAnimationActivity" >
+
+    <Button
+        android:id="@+id/btn_st_animation1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testObjectAnimator"
+        android:text="Object Animator" />
+
+    <Button
+        android:id="@+id/btn_st_animation2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testAnimationSet"
+        android:text="Animation Set" />
+
+    <Button
+        android:id="@+id/btn_st_animation3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testAnimationXML"
+        android:text="AnimationXML" />
+
+    <Button
+        android:id="@+id/btn_st_animation4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testPropertyValuesHolder"
+        android:text="PropertyValuesHolder" />
+
+    <Button
+        android:id="@+id/btn_st_animation5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testViewPropertyAnimator"
+        android:text="ViewPropertyAnimator" />
+
+    <Button
+        android:id="@+id/btn_st_animation6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testTypeEvaluator"
+        android:text="Type Evaluator" />
+
+    <Button
+        android:id="@+id/btn_st_animation7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testKeyFrames"
+        android:text="Key Frames" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="fill_parent"
+            android:layout_height="178dp"
+            android:background="#99CCCC"
+            android:text="@string/BaseAnimation"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_about"
+        android:orderInCategory="3"
+        android:showAsAction="always|withText"
+        android:title="关于"/>
+    <item
+        android:id="@+id/menu_feedback"
+        android:orderInCategory="2"
+        android:showAsAction="always|withText"
+        android:title="反馈"/>
+    <item
+        android:id="@+id/menu_share"
+        android:orderInCategory="1"
+        android:showAsAction="always|withText|"
+        android:title="分享"/>
+    
+<!-- 计算器菜单开始 -->    
+    <item
+        android:id="@+id/changeInput"
+        android:title="切换输入"/>
+    <item
+        android:id="@+id/helpabout"
+        android:title="帮助/关于"/>
+    <item
+        android:id="@+id/exit"
+        android:title="退出"/>
+<!-- 计算器菜单结束 -->   
+</menu>

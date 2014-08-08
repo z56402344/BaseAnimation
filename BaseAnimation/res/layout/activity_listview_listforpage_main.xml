@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<ListView  android:id="@+id/list"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    />
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+<TextView android:id="@+id/txPreview"
+    android:layout_width="60dip" 
+    android:layout_height="wrap_content" 
+    android:text="@string/textLeft"
+    android:gravity="center"
+    android:layout_marginLeft="5dp"/>
+<TextView android:id="@+id/total"
+    android:layout_width="90dip" 
+    android:layout_height="wrap_content" 
+    android:text="@string/total"
+    android:gravity="center"
+    android:layout_marginLeft="10dp"/>
+<TextView android:id="@+id/current"
+    android:layout_width="90dip" 
+    android:layout_height="wrap_content" 
+    android:text="@string/current"
+    android:gravity="center"
+    android:layout_marginLeft="10dp"/>
+<TextView android:id="@+id/txNext"
+    android:layout_width="50dip" 
+    android:layout_height="wrap_content" 
+    android:text="@string/textRight"
+    android:gravity="center"
+    android:layout_marginLeft="10dp"/>
+</LinearLayout>
+</LinearLayout>

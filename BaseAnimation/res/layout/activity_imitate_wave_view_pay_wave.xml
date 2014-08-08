@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_wave_pay"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/wave_bg1"
+    android:orientation="vertical" >
+
+    <!-- 发送 -->
+
+    <com.example.waveanim.WaveAnimView
+        android:id="@+id/search_animation_wave"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/iv_timer_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/wave_pay_timer_bg" />
+
+        <ImageView
+            android:id="@+id/iv_timer_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@anim/wave_timer_loading" />
+
+        <Button
+            android:id="@+id/iv_pay_wave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/wave_pay_wave_send"
+            android:text="发送"
+            android:textColor="#16aa78"
+            android:textSize="28sp" />
+    </com.example.waveanim.WaveAnimView>
+
+    <!-- 接收 -->
+
+    <com.example.waveanim.WaveAnimView
+        android:id="@+id/search_animation_wave2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"  >
+
+        <ImageView
+            android:id="@+id/iv_timer_loading2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/wave_pay_timer_bg" />
+
+        <ImageView
+            android:id="@+id/iv_timer_progress2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@anim/wave_timer_loading" />
+
+        <Button
+            android:id="@+id/iv_pay_wave2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/wave_pay_wave_send"
+            android:text="接收"
+            android:textColor="#16aa78"
+            android:textSize="28sp" />
+    </com.example.waveanim.WaveAnimView>
+
+</LinearLayout>

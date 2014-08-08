@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+<TextView android:id="@+id/img"
+    android:layout_width="55dp" 
+    android:layout_height="35dp" 
+    android:src="@drawable/listforpage_frame_player_normal"
+    android:gravity="left"/>
+<TextView android:id="@+id/tv"
+    android:layout_width="230dp" 
+    android:layout_height="35dp" 
+    android:text="@string/total"
+    android:gravity="center"/>
+<CheckBox android:id="@+id/ck"
+    android:layout_width="35dp" 
+    android:layout_height="35dp"
+    android:layout_gravity="right"
+    android:focusable="false"/>
+</LinearLayout>
