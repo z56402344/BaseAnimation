@@ -28,9 +28,9 @@ The 1.3 version update:
 
 3.ListView collection 15
 
-4. custom control set to increase 17
+4.custom control set to increase 17
 
-5. page sliding increases 4
+5.page sliding increases 4
 
 A total of 48 increase in animation
 
@@ -38,13 +38,13 @@ A total of 48 increase in animation
 
 The 1.2 version update:
 
-1. increase in Splash animation (center opening effect)
+1.increase in Splash animation (center opening effect)
 
-2. increase in Flip folding effect (13)
+2.increase in Flip folding effect (13)
 
-3. NineOld set (18+)
+3.NineOld set (18+)
 
-4. high imitation series (6 classic animation)
+4.high imitation series (6 classic animation)
 
 Train ticket ticket animation
 
@@ -58,9 +58,9 @@ The drop-down selection box
 
 Minesweeping effect
 
-5. new versions of the message board reminding function
+5.new versions of the message board reminding function
 
-6. part of the code optimization
+6.part of the code optimization
 
 ====
 
@@ -68,9 +68,9 @@ The 1.1 version update
 
 The home page
 
-1. simple animation (24)
+1.simple animation (24)
 
-2. complex animation (43)
+2.complex animation (43)
 
 ========
 
@@ -85,10 +85,15 @@ The home page
 ====
 
 1.2 版本更新内容:
+
 1.增加Splash动画  (中心打开式效果 )
+
 2.增加Flip折叠效果的集合(13种)
+
 3.增加NineOld集合(18+)
+
 4.高仿系列(6种经典动画)
+
 火车票出票动画
 淘宝菜单
 优酷导航菜单
@@ -97,14 +102,19 @@ The home page
 扫雷效果
 
 5.增加新版本消息栏提醒功能
+
 6.优化部分代码
 
 ====
 
 1.1 版本更新内容
+
 首页
+
 1.简单动画(24)
+
 2.复杂动画(43)
+
 3.Splash引导动画(5)
 
 ====
