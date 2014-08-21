@@ -1,5 +1,5 @@
-BaseAnimation
-动画合集
+#BaseAnimation
+#动画合集
 ==================
 
 English Description 
@@ -18,13 +18,13 @@ BaseAnimation QQ群：149581646
 
 
 # Version
-==================
+
 
 The 1.3 version update:
 
 1.Splash increased 2 animation
 
-2. high imitation animation effect increased 10
+2.high imitation animation effect increased 10
 
 3.ListView collection 15
 
@@ -34,7 +34,7 @@ The 1.3 version update:
 
 A total of 48 increase in animation
 
-
+====
 
 The 1.2 version update:
 
@@ -62,7 +62,7 @@ Minesweeping effect
 
 6. part of the code optimization
 
-
+====
 
 The 1.1 version update
 
@@ -72,6 +72,7 @@ The home page
 
 2. complex animation (43)
 
+========
 
 1.3 版本更新内容: 
 1.Splash增加2个动画 
@@ -81,6 +82,7 @@ The home page
 5.页面滑动增加4个 
 共增加48个动画效果 
 
+====
 
 1.2 版本更新内容:
 1.增加Splash动画  (中心打开式效果 )
@@ -97,6 +99,7 @@ The home page
 5.增加新版本消息栏提醒功能
 6.优化部分代码
 
+====
 
 1.1 版本更新内容
 首页
@@ -104,7 +107,7 @@ The home page
 2.复杂动画(43)
 3.Splash引导动画(5)
 
-
+====
 
 
 # ScreenShot

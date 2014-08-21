@@ -1,5 +1,5 @@
-BaseAnimation
-动画合集
+#BaseAnimation
+#动画合集
 ==================
 
 English Description 
@@ -18,8 +18,59 @@ BaseAnimation QQ群：149581646
 
 
 # Version
-==================
 
+
+The 1.3 version update:
+
+1.Splash increased 2 animation
+
+2.high imitation animation effect increased 10
+
+3.ListView collection 15
+
+4. custom control set to increase 17
+
+5. page sliding increases 4
+
+A total of 48 increase in animation
+
+
+
+The 1.2 version update:
+
+1. increase in Splash animation (center opening effect)
+
+2. increase in Flip folding effect (13)
+
+3. NineOld set (18+)
+
+4. high imitation series (6 classic animation)
+
+Train ticket ticket animation
+
+Taobao menu
+
+Youku navigation menu
+
+3D picture browsing
+
+The drop-down selection box
+
+Minesweeping effect
+
+5. new versions of the message board reminding function
+
+6. part of the code optimization
+
+
+
+The 1.1 version update
+
+The home page
+
+1. simple animation (24)
+
+2. complex animation (43)
 
 
 1.3 版本更新内容: 
@@ -29,6 +80,7 @@ BaseAnimation QQ群：149581646
 4.自定义控件集合增加17个 
 5.页面滑动增加4个 
 共增加48个动画效果 
+
 
 1.2 版本更新内容:
 1.增加Splash动画  (中心打开式效果 )
