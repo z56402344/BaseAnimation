@@ -1,15 +1,17 @@
-#BaseAnimation
-#动画合集
-==================
+#BaseAnimation (below chart)
+#动画合集 		（下面有效果图）
+
 
 English Description 
+
 BaseAnimation network Android animation set, custom controls, nearly 200 kinds of source code！
 BaseAnimation, if a new version is updated automatically to remind everyone, I hope everyone will contribute their animated XML files or other source, together to create this open source app！
 
-QQ group：149581646
+BaseAnimation  QQ group：149581646
 
 
 中文说明
+
 BaseAnimation收集网络Android相关动画集合，自定义控件等，近200多种源码 
 BaseAnimation,如果有新版本会自动提醒大家更新,也希望大家多多贡献自己的动画xml文件或者其他源码,一起来打造这个开源的app 
 
