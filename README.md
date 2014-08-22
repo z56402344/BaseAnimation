@@ -9,6 +9,10 @@ BaseAnimation, if a new version is updated automatically to remind everyone, I h
 
 BaseAnimation  QQ group：149581646
 
+Author's blog: http://blog.csdn.net/duguang77
+
+
+
 
 中文说明
 
@@ -17,6 +21,7 @@ BaseAnimation,如果有新版本会自动提醒大家更新,也希望大家多多贡献自己的动画xml文件
 
 BaseAnimation QQ群：149581646
 
+作者博客：http://blog.csdn.net/duguang77
 
 
 # Version
