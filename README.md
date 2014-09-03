@@ -4,8 +4,6 @@
 
 English Description 
 
-Statement: the part of the animation from the network, I just want to facilitate the collection together, if not please contact me! Thank you!
-
 BaseAnimation network Android animation set, custom controls, nearly 200 kinds of source code！
 BaseAnimation, if a new version is updated automatically to remind everyone, I hope everyone will contribute their animated XML files or other source, together to create this open source app！
 
@@ -17,8 +15,6 @@ Author's blog: http://blog.csdn.net/duguang77
 
 
 中文说明
-
-声明：部分动画来源于网络，本人只是想方便收集在一起，如果不妥请及时与我联系！谢谢
 
 BaseAnimation收集网络Android相关动画集合，自定义控件等，近200多种源码 
 BaseAnimation,如果有新版本会自动提醒大家更新,也希望大家多多贡献自己的动画xml文件或者其他源码,一起来打造这个开源的app 
