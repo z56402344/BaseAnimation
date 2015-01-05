@@ -1,27 +1,27 @@
 #BaseAnimation (below chart)
-#¶¯»­ºÏ¼¯ 		£¨ÏÂÃæÓĞĞ§¹ûÍ¼£©
+#åŠ¨ç”»åˆé›† 		ï¼ˆä¸‹é¢æœ‰æ•ˆæœå›¾ï¼‰ä¿®æ”¹åˆ†æ”¯
 
 
 English Description 
 
-BaseAnimation network Android animation set, custom controls, nearly 200 kinds of source code£¡
-BaseAnimation, if a new version is updated automatically to remind everyone, I hope everyone will contribute their animated XML files or other source, together to create this open source app£¡
+BaseAnimation network Android animation set, custom controls, nearly 200 kinds of source codeï¼
+BaseAnimation, if a new version is updated automatically to remind everyone, I hope everyone will contribute their animated XML files or other source, together to create this open source appï¼
 
-BaseAnimation  QQ group£º149581646
+BaseAnimation  QQ groupï¼š149581646
 
 Author's blog: http://blog.csdn.net/duguang77
 
 
 
 
-ÖĞÎÄËµÃ÷
+ä¸­æ–‡è¯´æ˜
 
-BaseAnimationÊÕ¼¯ÍøÂçAndroidÏà¹Ø¶¯»­¼¯ºÏ£¬×Ô¶¨Òå¿Ø¼şµÈ£¬½ü200¶àÖÖÔ´Âë 
-BaseAnimation,Èç¹ûÓĞĞÂ°æ±¾»á×Ô¶¯ÌáĞÑ´ó¼Ò¸üĞÂ,Ò²Ï£Íû´ó¼Ò¶à¶à¹±Ï××Ô¼ºµÄ¶¯»­xmlÎÄ¼ş»òÕßÆäËûÔ´Âë,Ò»ÆğÀ´´òÔìÕâ¸ö¿ªÔ´µÄapp 
+BaseAnimationæ”¶é›†ç½‘ç»œAndroidç›¸å…³åŠ¨ç”»é›†åˆï¼Œè‡ªå®šä¹‰æ§ä»¶ç­‰ï¼Œè¿‘200å¤šç§æºç  
+BaseAnimation,å¦‚æœæœ‰æ–°ç‰ˆæœ¬ä¼šè‡ªåŠ¨æé†’å¤§å®¶æ›´æ–°,ä¹Ÿå¸Œæœ›å¤§å®¶å¤šå¤šè´¡çŒ®è‡ªå·±çš„åŠ¨ç”»xmlæ–‡ä»¶æˆ–è€…å…¶ä»–æºç ,ä¸€èµ·æ¥æ‰“é€ è¿™ä¸ªå¼€æºçš„app 
 
-BaseAnimation QQÈº£º149581646
+BaseAnimation QQç¾¤ï¼š149581646
 
-×÷Õß²©¿Í£ºhttp://blog.csdn.net/duguang77
+ä½œè€…åšå®¢ï¼šhttp://blog.csdn.net/duguang77
 
 
 # Version
@@ -81,54 +81,54 @@ The home page
 
 ========
 
-1.3 °æ±¾¸üĞÂÄÚÈİ: 
+1.3 ç‰ˆæœ¬æ›´æ–°å†…å®¹: 
 
-1.SplashÔö¼Ó2¸ö¶¯»­ 
+1.Splashå¢åŠ 2ä¸ªåŠ¨ç”» 
 
-2.¸ß·Â¶¯»­Ğ§¹ûÔö¼Ó10¸ö 
+2.é«˜ä»¿åŠ¨ç”»æ•ˆæœå¢åŠ 10ä¸ª 
 
-3.ListView¼¯ºÏÔö¼Ó15¸ö 
+3.ListViewé›†åˆå¢åŠ 15ä¸ª 
 
-4.×Ô¶¨Òå¿Ø¼ş¼¯ºÏÔö¼Ó17¸ö 
+4.è‡ªå®šä¹‰æ§ä»¶é›†åˆå¢åŠ 17ä¸ª 
 
-5.Ò³Ãæ»¬¶¯Ôö¼Ó4¸ö 
+5.é¡µé¢æ»‘åŠ¨å¢åŠ 4ä¸ª 
 
-¹²Ôö¼Ó48¸ö¶¯»­Ğ§¹û 
-
-====
-
-1.2 °æ±¾¸üĞÂÄÚÈİ:
-
-1.Ôö¼ÓSplash¶¯»­  (ÖĞĞÄ´ò¿ªÊ½Ğ§¹û )
-
-2.Ôö¼ÓFlipÕÛµşĞ§¹ûµÄ¼¯ºÏ(13ÖÖ)
-
-3.Ôö¼ÓNineOld¼¯ºÏ(18+)
-
-4.¸ß·ÂÏµÁĞ(6ÖÖ¾­µä¶¯»­)
-
-»ğ³µÆ±³öÆ±¶¯»­
-ÌÔ±¦²Ëµ¥
-ÓÅ¿áµ¼º½²Ëµ¥
-Í¼Æ¬3Dä¯ÀÀ
-ÏÂÀ­Ñ¡Ôñ¿ò
-É¨À×Ğ§¹û
-
-5.Ôö¼ÓĞÂ°æ±¾ÏûÏ¢À¸ÌáĞÑ¹¦ÄÜ
-
-6.ÓÅ»¯²¿·Ö´úÂë
+å…±å¢åŠ 48ä¸ªåŠ¨ç”»æ•ˆæœ 
 
 ====
 
-1.1 °æ±¾¸üĞÂÄÚÈİ
+1.2 ç‰ˆæœ¬æ›´æ–°å†…å®¹:
 
-Ê×Ò³
+1.å¢åŠ SplashåŠ¨ç”»  (ä¸­å¿ƒæ‰“å¼€å¼æ•ˆæœ )
 
-1.¼òµ¥¶¯»­(24)
+2.å¢åŠ FlipæŠ˜å æ•ˆæœçš„é›†åˆ(13ç§)
 
-2.¸´ÔÓ¶¯»­(43)
+3.å¢åŠ NineOldé›†åˆ(18+)
 
-3.SplashÒıµ¼¶¯»­(5)
+4.é«˜ä»¿ç³»åˆ—(6ç§ç»å…¸åŠ¨ç”»)
+
+ç«è½¦ç¥¨å‡ºç¥¨åŠ¨ç”»
+æ·˜å®èœå•
+ä¼˜é…·å¯¼èˆªèœå•
+å›¾ç‰‡3Dæµè§ˆ
+ä¸‹æ‹‰é€‰æ‹©æ¡†
+æ‰«é›·æ•ˆæœ
+
+5.å¢åŠ æ–°ç‰ˆæœ¬æ¶ˆæ¯æ æé†’åŠŸèƒ½
+
+6.ä¼˜åŒ–éƒ¨åˆ†ä»£ç 
+
+====
+
+1.1 ç‰ˆæœ¬æ›´æ–°å†…å®¹
+
+é¦–é¡µ
+
+1.ç®€å•åŠ¨ç”»(24)
+
+2.å¤æ‚åŠ¨ç”»(43)
+
+3.Splashå¼•å¯¼åŠ¨ç”»(5)
 
 ====
 
