@@ -245,5 +245,7 @@
     <string name="async_title">AsyncDataLoading</string>
     
     <string name="loading">Loading</string>
-
+    
+    <string name="test">测试git1</string>
+	<string name="test">测试git2</string>
 </resources>
